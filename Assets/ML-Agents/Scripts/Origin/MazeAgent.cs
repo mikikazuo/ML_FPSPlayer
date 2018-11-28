@@ -5,6 +5,12 @@ using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using MLAgents;
 
+using System;
+using System.Linq;
+using Random = UnityEngine.Random;
+
+
+
 
 
 
@@ -12,12 +18,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 {
     public class MazeAgent : Agent
     {
-        public GameObject area;
-        private PyramidArea myArea;
+        public ResetPosition resetPosition;
         private Rigidbody agentRb;
         private RayPerception rayPer;
-        private PyramidSwitch switchLogic;
-        public GameObject areaSwitch;
         public bool useVectorObs;
 
         //コントロール関係
@@ -53,21 +56,33 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
-        private Transform ini_pos;
 
         //初期化   
         public override void InitializeAgent()
         {
             base.InitializeAgent();
             agentRb = GetComponent<Rigidbody>();
-            //myArea = area.GetComponent<PyramidArea>();
             rayPer = GetComponent<RayPerception>();
-            //switchLogic = areaSwitch.GetComponent<PyramidSwitch>();
 
             m_CharacterController = GetComponent<CharacterController>();
 
         }
+        //リストの中身を表示
+        public void ShowListContentsInTheDebugLog<T>(List<T> list)
+        {
+            string log = "";
 
+            foreach(var content in list.Select((val, idx) => new {val, idx}))
+            {
+                if (content.idx == list.Count - 1)
+                    log += content.val.ToString();
+                else
+                    log += content.val.ToString() + ", ";
+            }
+
+            Debug.Log(log);
+        }
+        
         //状態を伝える
         public override void CollectObservations()
         {
@@ -80,9 +95,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 string[] detectableObjects = { "wall", "endWall", "Enemy" };
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, 5f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -2f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -4f));
                 AddVectorObs(transform.InverseTransformDirection(agentRb.velocity));
+ 
             }
         }
 
@@ -124,31 +140,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             AddReward(-1f / agentParameters.maxStep);
             MoveAgent(vectorAction);
-           // Debug.Log(GetCumulativeReward());
+
         }
 
         public override void AgentReset()
         {
-            transform.position = ini_pos.position;
-            transform.rotation = ini_pos.rotation;
-            /*
+       
             var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
             var items = enumerable.ToArray();
 
-            myArea.CleanPyramidArea();
+            resetPosition.CleanGoal();
 
             agentRb.velocity = Vector3.zero;
-            myArea.PlaceObject(gameObject, items[0]);
+            resetPosition.PlaceObject(gameObject, items[0]);
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
 
-            switchLogic.ResetSwitch(items[1], items[2]);
-            myArea.CreateStonePyramid(1, items[3]);
-            myArea.CreateStonePyramid(1, items[4]);
-            myArea.CreateStonePyramid(1, items[5]);
-            myArea.CreateStonePyramid(1, items[6]);
-            myArea.CreateStonePyramid(1, items[7]);
-            myArea.CreateStonePyramid(1, items[8]);
-            */
+            resetPosition.CreateGoal( items[3]);
         }
 
 
@@ -173,8 +180,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
-
-            ini_pos = transform;
         }
 
         // Update is called once per frame
@@ -182,9 +187,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
-                Debug.Log(ini_pos.position);
-                transform.position = ini_pos.position;
-                transform.rotation = ini_pos.rotation;
+
                 SetReward(2f);
                 Done();
 
@@ -377,6 +380,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
         }
+        
 
 
     }
