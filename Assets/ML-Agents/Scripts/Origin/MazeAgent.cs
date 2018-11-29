@@ -97,8 +97,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -4f));
-                AddVectorObs(transform.InverseTransformDirection(agentRb.velocity));
- 
+                AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
             }
         }
 
@@ -249,7 +248,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_MoveDir += Physics.gravity * m_GravityMultiplier * Time.fixedDeltaTime;
             }
-         //   m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
+            //m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
 
             ProgressStepCycle(speed);
             //UpdateCameraPosition(speed);
