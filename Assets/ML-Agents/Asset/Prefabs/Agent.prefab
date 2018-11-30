@@ -855,7 +855,6 @@ GameObject:
   - component: {fileID: 114140632306130828}
   - component: {fileID: 114953795679356690}
   - component: {fileID: 114134049668352988}
-  - component: {fileID: 54667785126503312}
   - component: {fileID: 65813729836104954}
   - component: {fileID: 82518322825593186}
   - component: {fileID: 114356956372919062}
@@ -2274,21 +2273,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!54 &54667785126503312
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1716707923108566}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &65813729836104954
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2519,7 +2503,7 @@ MonoBehaviour:
   brain: {fileID: 0}
   agentParameters:
     agentCameras: []
-    maxStep: 10000
+    maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
     numberOfActionsBetweenDecisions: 5
@@ -44318,8 +44302,8 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.6
   m_Radius: 0.2
-  m_SlopeLimit: 45
-  m_StepOffset: 0.5
+  m_SlopeLimit: 0
+  m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.88, z: 0}

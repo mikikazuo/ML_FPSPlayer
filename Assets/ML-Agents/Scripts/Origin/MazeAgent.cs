@@ -12,14 +12,12 @@ using Random = UnityEngine.Random;
 
 
 
-
-
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     public class MazeAgent : Agent
     {
         public ResetPosition resetPosition;
-        private Rigidbody agentRb;
+
         private RayPerception rayPer;
         public bool useVectorObs;
 
@@ -61,7 +59,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public override void InitializeAgent()
         {
             base.InitializeAgent();
-            agentRb = GetComponent<Rigidbody>();
             rayPer = GetComponent<RayPerception>();
 
             m_CharacterController = GetComponent<CharacterController>();
@@ -93,10 +90,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 float[] rayAngles1 = { 25f, 95f, 165f, 50f, 140f, 75f, 115f };
                 float[] rayAngles2 = { 15f, 85f, 155f, 40f, 130f, 65f, 105f };
 
-                string[] detectableObjects = { "wall", "endWall", "Enemy" };
+                string[] detectableObjects = { "wall",  "Enemy" };
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -4f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.0f, 0f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 0.5f, 0f));
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
             }
         }
@@ -150,7 +147,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             resetPosition.CleanGoal();
 
-            agentRb.velocity = Vector3.zero;
             resetPosition.PlaceObject(gameObject, items[0]);
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
 
@@ -181,39 +177,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.Init(transform, m_Camera.transform);
         }
 
-        // Update is called once per frame
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.O))
-            {
-
-                SetReward(2f);
-                Done();
-
-            }
-            /*
-             RotateView();  カメラ
-            // the jump state needs to read here to make sure it is not missed
-            if (!m_Jump)
-            {
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-            }
-
-            if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
-            {
-                StartCoroutine(m_JumpBob.DoBobCycle());
-               // PlayLandingSound();
-                m_MoveDir.y = 0f;
-                m_Jumping = false;
-            }
-            if (!m_CharacterController.isGrounded && !m_Jumping && m_PreviouslyGrounded)
-            {
-                m_MoveDir.y = 0f;
-            }
-
-            m_PreviouslyGrounded = m_CharacterController.isGrounded;
-            */
-        }
         private void FixedUpdate()
         {
   
@@ -253,7 +216,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             ProgressStepCycle(speed);
             //UpdateCameraPosition(speed);
 
-            m_MouseLook.UpdateCursorLock();
+            //m_MouseLook.UpdateCursorLock();
 
 
         }
@@ -354,30 +317,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
 
-        private void OnControllerColliderHit(ControllerColliderHit hit)
-        {
-            Rigidbody body = hit.collider.attachedRigidbody;
-            //dont move the rigidbody if the character is on top of it
-            if (m_CollisionFlags == CollisionFlags.Below)
-            {
-                return;
-            }
-
-            if (body == null || body.isKinematic)
-            {
-                return;
-            }
-            body.AddForceAtPosition(m_CharacterController.velocity * 0.1f, hit.point, ForceMode.Impulse);
-        }
-
-        private void OnTriggerEnter(Collider collision)
-        {
-            if (collision.gameObject.CompareTag("Enemy"))
+        void OnControllerColliderHit(ControllerColliderHit hit){
+            if (hit.gameObject.CompareTag("Enemy"))
             {
                 SetReward(2f);
                 Done();
+     
             }
-
         }
         
 

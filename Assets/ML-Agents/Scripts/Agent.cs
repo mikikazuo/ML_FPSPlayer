@@ -1034,5 +1034,6 @@ namespace MLAgents
             RenderTexture.active = prevActiveRT;
             RenderTexture.ReleaseTemporary(tempRT);
         }
+     
     }
 }

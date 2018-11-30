@@ -36,7 +36,7 @@ public class PlatformCharacterController : MonoBehaviour {
 		if (walkMultiplier!=1) {
 			bool sneak = false;
 			try {
-				sneak = Input.GetButton("Fire1");
+				sneak = Input.GetButton("Sneak");
 			}
 			catch (UnityException e) {
 				if (!loggedInputInfo) {

@@ -20,7 +20,7 @@ public class AimLookCharacterController : MonoBehaviour {
 		Vector3 directionVector = Vector3.zero;
 		
 		try {
-			directionVector = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+			directionVector = new Vector3(Input.GetAxis("Horizontal2"), Input.GetAxis("Vertical2"), 0);
 		}
 		catch (UnityException e) {
 			if (!loggedInputInfo) {

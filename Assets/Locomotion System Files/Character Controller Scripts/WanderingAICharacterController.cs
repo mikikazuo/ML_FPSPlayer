@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.AI;
 
 public class WanderingAICharacterController : MonoBehaviour {
 	
@@ -14,12 +13,10 @@ public class WanderingAICharacterController : MonoBehaviour {
 	private float moveSpeed = 0;
 	private float turnSpeed = 0;
 	private float faceSpeed = 0;
-
-    private NavMeshAgent nav;
+	
 	// Use this for initialization
 	void Start () {
 		motor = GetComponent(typeof(CharacterMotor)) as CharacterMotor;
-        nav= GetComponent<NavMeshAgent>();
 	}
 	
 	// Update is called once per frame
@@ -46,7 +43,6 @@ public class WanderingAICharacterController : MonoBehaviour {
 		
 		// Just run right in the beginning
 		if (Time.time<5) { moveDirection = 0; moveSpeed = 1; }
-
 		
 		// calculate move and facing vectors
 		Vector3 moveVector = Quaternion.AngleAxis(moveDirection*360,Vector3.up) * Vector3.forward * moveSpeed;
@@ -55,9 +51,7 @@ public class WanderingAICharacterController : MonoBehaviour {
 		faceVector = faceVector.normalized;
 		
 		if (onlyWalkForward) faceVector = moveVector.normalized;
-
-        motor.desiredMovementDirection = new Vector3(0,0,1);
-        /*
+		
 		// apply vectors
 		float moveVectorMag = moveVector.magnitude;
 		motor.desiredFacingDirection = faceVector;
@@ -71,6 +65,5 @@ public class WanderingAICharacterController : MonoBehaviour {
 				* (moveVector/moveVectorMag)
 				* ((moveVectorMag-idleThreshold)/(1-idleThreshold));
 		}
-        */
-    }
+	}
 }

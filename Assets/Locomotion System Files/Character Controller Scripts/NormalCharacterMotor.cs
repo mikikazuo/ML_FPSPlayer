@@ -74,8 +74,8 @@ public class NormalCharacterMotor : CharacterMotor {
 		}
 		
 		// Apply movement
-	//	CollisionFlags flags = controller.Move(movement * Time.deltaTime);
-	//	grounded = (flags & CollisionFlags.CollidedBelow) != 0;
+		CollisionFlags flags = controller.Move(movement * Time.deltaTime);
+		grounded = (flags & CollisionFlags.CollidedBelow) != 0;
 	}
 	
 	// Update is called once per frame
