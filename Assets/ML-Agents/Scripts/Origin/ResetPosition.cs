@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class ResetPosition : MonoBehaviour
 {
@@ -25,7 +26,6 @@ public class ResetPosition : MonoBehaviour
         var spawnTransform = spawnAreas[spawnAreaIndex].transform;
         var xRange = spawnTransform.localScale.x / 2.1f;
         var zRange = spawnTransform.localScale.z / 2.1f;
-
         objectToPlace.transform.position =  spawnTransform.position;
     }
 

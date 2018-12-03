@@ -108,7 +108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4688839942831746}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4517819539359580}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4963984985315658}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4177649975221618}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 64715027535378790}
   m_Layer: 0
   m_Name: RoadLine.077
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -514,7 +514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4554531732505042}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 64274744074560958}
   m_Layer: 0
   m_Name: RoadTurn.023
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -565,7 +565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4820800962219326}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686620770124594}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 64720290076208290}
   m_Layer: 0
   m_Name: RoadTurn.017
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 64517656880627186}
   m_Layer: 0
   m_Name: RoadIntersection3.009
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -688,7 +688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4102052388667328}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 64640518321214066}
   m_Layer: 0
   m_Name: RoadTurn.018
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -845,7 +845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4381952159743436}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 64112264969525668}
   m_Layer: 0
   m_Name: RoadTurn.025
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -964,7 +964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4697306994138932}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4506791622734194}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1086,7 +1086,7 @@ GameObject:
   - component: {fileID: 64649863687097376}
   m_Layer: 0
   m_Name: RoadTurn.020
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 64168114057754280}
   m_Layer: 0
   m_Name: RoadTurn.000
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1137,7 +1137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4039050256793302}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 64454713299431880}
   m_Layer: 0
   m_Name: RoadLine.074
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1224,7 +1224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4329974723734062}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftToeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4696020635110470}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1543,7 +1543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4120204169842716}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,7 +1563,7 @@ GameObject:
   - component: {fileID: 64932848358974424}
   m_Layer: 0
   m_Name: RoadLine.071
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1666,7 +1666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4970217213828228}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1681,7 +1681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4512431836139150}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1719,7 @@ GameObject:
   - component: {fileID: 64928115423098896}
   m_Layer: 0
   m_Name: RoadIntersection3.008
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1737,7 +1737,7 @@ GameObject:
   - component: {fileID: 64094372968458012}
   m_Layer: 0
   m_Name: RoadIntersection3.011
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1750,7 +1750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4236776340732462}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1783,7 +1783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4538998700177010}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4687010391303842}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4832771701760710}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,7 +1961,7 @@ GameObject:
   - component: {fileID: 64882422670111284}
   m_Layer: 0
   m_Name: RoadTurn.021
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1992,7 +1992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4714551333790642}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,7 +2030,7 @@ GameObject:
   - component: {fileID: 64557486025478666}
   m_Layer: 0
   m_Name: RoadSidewalk.357
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2067,7 +2067,7 @@ GameObject:
   - component: {fileID: 64785455345786836}
   m_Layer: 0
   m_Name: RoadSidewalk.358
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2080,7 +2080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4221933208082578}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2100,7 @@ GameObject:
   - component: {fileID: 64236160369285196}
   m_Layer: 0
   m_Name: RoadSidewalk.355
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2133,7 +2133,7 @@ GameObject:
   - component: {fileID: 64607457995392824}
   m_Layer: 0
   m_Name: RoadLine.076
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2188,7 +2188,7 @@ GameObject:
   - component: {fileID: 64438543223709406}
   m_Layer: 0
   m_Name: RoadTurn.026
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2256,7 +2256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4992862535601076}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2331,7 +2331,7 @@ GameObject:
   - component: {fileID: 64160494467759224}
   m_Layer: 0
   m_Name: RoadTurn.024
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2576,7 +2576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4421473628233818}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2596,7 +2596,7 @@ GameObject:
   - component: {fileID: 64447352525403548}
   m_Layer: 0
   m_Name: RoadSidewalk.359
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2682,7 +2682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4741187579909576}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2903,7 +2903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4479949130920054}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2934,7 +2934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4739017900731032}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3005,7 +3005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4880432843489680}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3093,7 +3093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4395130352296722}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3179,7 +3179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561932652038100}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3265,7 +3265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4315312905959918}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3298,7 +3298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4076380651263210}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3313,7 +3313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4310388860644574}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3328,7 +3328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4257034440793874}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3343,7 +3343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4226369370077094}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftForearmRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3414,7 +3414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4681264461823478}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3436,25 +3436,6 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!1 &1483778764871296
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4490256706325606}
-  - component: {fileID: 33331532066669576}
-  - component: {fileID: 23380724689847920}
-  - component: {fileID: 65397864509244058}
-  - component: {fileID: 54299209282833602}
-  m_Layer: 0
-  m_Name: Goal
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1486563706258560
 GameObject:
@@ -3572,7 +3553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4411659108999662}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3592,7 +3573,7 @@ GameObject:
   - component: {fileID: 64687270407674708}
   m_Layer: 0
   m_Name: RoadSidewalk.354
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3605,7 +3586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434558428539594}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3625,7 +3606,7 @@ GameObject:
   - component: {fileID: 64337422263442300}
   m_Layer: 0
   m_Name: RoadSidewalk.003
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3638,7 +3619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4046105613810824}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3708,7 +3689,7 @@ GameObject:
   - component: {fileID: 64104999712984372}
   m_Layer: 0
   m_Name: RoadTurn.022
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3726,7 +3707,7 @@ GameObject:
   - component: {fileID: 64924236610012338}
   m_Layer: 0
   m_Name: RoadTurn.013
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3744,7 +3725,7 @@ GameObject:
   - component: {fileID: 64337001770331342}
   m_Layer: 0
   m_Name: RoadSidewalk.361
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3798,7 +3779,7 @@ GameObject:
   - component: {fileID: 64594708945154236}
   m_Layer: 0
   m_Name: RoadSidewalk.353
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3861,7 +3842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4084200518888478}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4037,7 +4018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4730656189073102}
   - component: {fileID: 137151747699095004}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4057,7 +4038,7 @@ GameObject:
   - component: {fileID: 64871490016823518}
   m_Layer: 0
   m_Name: RoadLine.069
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4075,7 +4056,7 @@ GameObject:
   - component: {fileID: 64820037695324542}
   m_Layer: 0
   m_Name: RoadLine.072
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4149,7 +4130,7 @@ GameObject:
   - component: {fileID: 64013451653930650}
   m_Layer: 0
   m_Name: RoadLine.070
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4200,7 +4181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4401369719276294}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4272,7 +4253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4280537108325088}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4407,7 +4388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4255966705632836}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightGunTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4494,7 +4475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4103891626196100}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4509,7 +4490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4678960396029670}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4542,7 +4523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016673747198140}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightToeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4562,7 +4543,7 @@ GameObject:
   - component: {fileID: 64244398394664954}
   m_Layer: 0
   m_Name: RoadLine.073
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4752,7 +4733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4150534419746670}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4936,7 +4917,7 @@ GameObject:
   - component: {fileID: 64665394046441470}
   m_Layer: 0
   m_Name: RoadSidewalk.356
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5003,7 +4984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4988649580469680}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5056,7 +5037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4268178706964314}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5089,7 +5070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4406017624207900}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5123,7 +5104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4201358600851978}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5161,7 +5142,7 @@ GameObject:
   - component: {fileID: 64754904183350974}
   m_Layer: 0
   m_Name: RoadTurn.012
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5192,7 +5173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4861016173915006}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightForearmRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5244,7 +5225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4778412012759190}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5298,7 +5279,7 @@ GameObject:
   - component: {fileID: 64040176464205962}
   m_Layer: 0
   m_Name: RoadLine.075
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5347,7 +5328,7 @@ GameObject:
   - component: {fileID: 64711879429242044}
   m_Layer: 0
   m_Name: RoadTurn.019
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5413,7 +5394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4307292897101424}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,7 +5427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571074553691178}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5643,7 +5624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016160924189080}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5981,7 +5962,7 @@ GameObject:
   - component: {fileID: 64855715271810100}
   m_Layer: 0
   m_Name: RoadSidewalk.002
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6010,7 +5991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4666441337795932}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6030,7 +6011,7 @@ GameObject:
   - component: {fileID: 64681988908392064}
   m_Layer: 0
   m_Name: RoadIntersection3.007
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6066,7 +6047,7 @@ GameObject:
   - component: {fileID: 64744357752560426}
   m_Layer: 0
   m_Name: RoadSidewalk.360
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6133,7 +6114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4319896530176560}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftGunTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6171,7 +6152,7 @@ GameObject:
   - component: {fileID: 64850311444415748}
   m_Layer: 0
   m_Name: RoadTurn.014
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6202,7 +6183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4700846549899616}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6256,7 +6237,7 @@ GameObject:
   - component: {fileID: 64677268797923206}
   m_Layer: 0
   m_Name: RoadIntersection3.012
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6390,7 +6371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4852801377803736}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6446,7 +6427,7 @@ GameObject:
   - component: {fileID: 64554518112059596}
   m_Layer: 0
   m_Name: RoadTurn.015
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6459,7 +6440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4168779713879986}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6491,7 +6472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4698489969749492}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6566,7 +6547,7 @@ GameObject:
   - component: {fileID: 64947859069475366}
   m_Layer: 0
   m_Name: RoadTurn.016
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6688,7 +6669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4089825383633080}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Spine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6703,7 +6684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4753743584538496}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6733,9 +6714,9 @@ GameObject:
   - component: {fileID: 82281517626408280}
   - component: {fileID: 114416196407501706}
   - component: {fileID: 114507449741381336}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Agent
-  m_TagString: Untagged
+  m_TagString: agent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6748,7 +6729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4146045789343322}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6801,7 +6782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4583433263063006}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6852,7 +6833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4696525033036130}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6872,7 +6853,7 @@ GameObject:
   - component: {fileID: 64620696136182942}
   m_Layer: 0
   m_Name: RoadIntersection3.010
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6919,7 +6900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4002852787329042}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7023,7 +7004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4035990623059992}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7167,7 +7148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4202124662040118}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Reference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7342,7 +7323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4280386010839824}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: HeadTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7375,7 +7356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762760714148386}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7572,7 +7553,7 @@ GameObject:
   - component: {fileID: 4258378532108774}
   m_Layer: 0
   m_Name: Road
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7650,12 +7631,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1725043103248758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.64878, y: -63.38017, z: -27.391094}
+  m_LocalPosition: {x: 0, y: -9.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4692176122994924}
   - {fileID: 4214388046531358}
-  - {fileID: 4490256706325606}
   m_Father: {fileID: 4637050397324768}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7731,7 +7711,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1185146511424060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 0, z: -30}
+  m_LocalPosition: {x: 50, y: 0, z: -25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -7744,7 +7724,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1695169456106302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 0, z: 30}
+  m_LocalPosition: {x: 50, y: 0, z: 25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -8760,7 +8740,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1945323779299988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 0, z: -30}
+  m_LocalPosition: {x: -50, y: 0, z: -25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -8835,7 +8815,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877256044784098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -67.121284, y: 53.57016, z: 32.575424}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4202124662040118}
@@ -10224,7 +10204,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1996159048943950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 30}
+  m_LocalPosition: {x: 0, y: 0, z: 25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -10237,7 +10217,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1750935151615984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -30}
+  m_LocalPosition: {x: 0, y: 0, z: -25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -10250,7 +10230,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1994241141601750}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 40.7, y: 9.81, z: 0}
+  m_LocalPosition: {x: 80, y: 9.81, z: 0}
   m_LocalScale: {x: 100.00006, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 4152940502647280}
@@ -10425,19 +10405,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4258378532108774}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4490256706325606
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1483778764871296}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -68.268974, y: 54.750168, z: 38.208885}
-  m_LocalScale: {x: 1, y: 14.11, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4014228406358044}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4491571465412556
 Transform:
@@ -11695,7 +11662,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1162151609076248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66.64878, y: 53.6, z: 27.391094}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4196425949424500}
@@ -11904,7 +11871,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1619286817767944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 0, z: 0}
+  m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -13063,7 +13030,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1472721893902492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 0, z: 0}
+  m_LocalPosition: {x: -50, y: 0, z: 0}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -13416,7 +13383,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1116781942243952}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -42.4, y: 9.81, z: -0}
+  m_LocalPosition: {x: -80, y: 9.81, z: 0}
   m_LocalScale: {x: 100.00006, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 4152940502647280}
@@ -13469,7 +13436,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1603280880975018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 0, z: 30}
+  m_LocalPosition: {x: -50, y: 0, z: 25}
   m_LocalScale: {x: 25, y: 1, z: 25}
   m_Children: []
   m_Father: {fileID: 4692176122994924}
@@ -17351,41 +17318,6 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 62afcc4bfa85b254085c04554eb00e7b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23380724689847920
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1483778764871296}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 036ef9433dcf1f2439246ef87b21edf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25697,13 +25629,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1566967768870462}
   m_Mesh: {fileID: 4300000, guid: a32025048e1d35049b861e237f07f0d9, type: 3}
---- !u!33 &33331532066669576
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1483778764871296}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33333294630473458
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -27090,21 +27015,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366176024734826}
   m_Mesh: {fileID: 4300000, guid: 1a22ab65ca152424890280614ea65db6, type: 3}
---- !u!54 &54299209282833602
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1483778764871296}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!64 &64013451653930650
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -29785,18 +29695,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.022045298, y: 0.36015013, z: 0.019686338}
   m_Center: {x: -0.0005937031, y: 0.18007506, z: -0.0005563479}
---- !u!65 &65397864509244058
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1483778764871296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65399859361337828
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -74835,10 +74733,10 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.6
-  m_Radius: 0.2
+  m_Height: 1.9
+  m_Radius: 0.4
   m_SlopeLimit: 0
   m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.88, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}

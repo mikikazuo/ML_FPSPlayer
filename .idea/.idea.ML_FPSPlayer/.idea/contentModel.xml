@@ -700,6 +700,7 @@
         <e p="BodyGuards" t="Include">
           <e p="ReadMe.txt.txt" t="Include" />
         </e>
+        <e p="Evaluation.cs" t="Include" />
         <e p="Locomotion System Files" t="Include">
           <e p="Character Controller Scripts" t="Include">
             <e p="AccelerationCharacterController.cs" t="Include" />
@@ -882,11 +883,6 @@
                 <e p="WallJumpAcademy.cs" t="Include" />
                 <e p="WallJumpAgent.cs" t="Include" />
               </e>
-            </e>
-          </e>
-          <e p="MadeModels" t="Include">
-            <e p="Step2000000" t="Include">
-              <e p="時間.txt" t="Include" />
             </e>
           </e>
           <e p="Scripts" t="Include">

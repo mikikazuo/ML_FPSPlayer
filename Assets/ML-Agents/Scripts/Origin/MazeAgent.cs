@@ -16,6 +16,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
 {
     public class MazeAgent : Agent
     {
+        //過学習検証用
+        private int goaledCount = 0;
+        private int episodeCount = -1;
+        public int GoaledCount{
+            get{ return goaledCount; }
+        }
+        public int EpisodeCount{
+            get{ return episodeCount; }
+        }
+        
+        
         public ResetPosition resetPosition;
 
         private RayPerception rayPer;
@@ -53,8 +64,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        
+        private bool colliderEnter = false;    //キャラクターコントローラーEnter用の当たり判定フラグ
 
-
+        private LegAnimator legAnimator;    //位置リセット時のバグを防ぐため
         //初期化   
         public override void InitializeAgent()
         {
@@ -62,7 +75,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             rayPer = GetComponent<RayPerception>();
 
             m_CharacterController = GetComponent<CharacterController>();
-
         }
         //リストの中身を表示
         public void ShowListContentsInTheDebugLog<T>(List<T> list)
@@ -76,7 +88,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 else
                     log += content.val.ToString() + ", ";
             }
-
             Debug.Log(log);
         }
         
@@ -90,10 +101,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 float[] rayAngles1 = { 25f, 95f, 165f, 50f, 140f, 75f, 115f };
                 float[] rayAngles2 = { 15f, 85f, 155f, 40f, 130f, 65f, 105f };
 
-                string[] detectableObjects = { "wall",  "Enemy" };
+                string[] detectableObjects = { "wall", "floor", "Enemy" };
+                //AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
+                //AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.0f, 0f));
+                //AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 0.5f, 0f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.0f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 0.5f, 0f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -2f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -10f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -40f));
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
             }
         }
@@ -129,12 +145,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
    
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
-            m_CharacterController.Move(dirToGo * Time.fixedDeltaTime *4);
+            m_CharacterController.Move(dirToGo * Time.deltaTime *2);
         }
 
         public override void AgentAction(float[] vectorAction, string textAction)
         {
+
             AddReward(-1f / agentParameters.maxStep);
+            if(!legAnimator)
+            legAnimator.useIK = false;
             MoveAgent(vectorAction);
 
         }
@@ -146,11 +165,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             var items = enumerable.ToArray();
 
             resetPosition.CleanGoal();
-
+            legAnimator.useIK = false;
             resetPosition.PlaceObject(gameObject, items[0]);
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
 
-            resetPosition.CreateGoal( items[3]);
+            resetPosition.CreateGoal(items[3]);
+            episodeCount++;
+            colliderEnter = false;
         }
 
 
@@ -166,17 +187,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void Start()
         {
             m_CharacterController = GetComponent<CharacterController>();
-            m_Camera = Camera.main;
-            m_OriginalCameraPosition = m_Camera.transform.localPosition;
-            m_FovKick.Setup(m_Camera);
-            m_HeadBob.Setup(m_Camera, m_StepInterval);
+            //m_Camera = Camera.main;
+            //m_OriginalCameraPosition = m_Camera.transform.localPosition;
+            //m_FovKick.Setup(m_Camera);
+            //m_HeadBob.Setup(m_Camera, m_StepInterval);
             m_StepCycle = 0f;
             m_NextStep = m_StepCycle / 2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-            m_MouseLook.Init(transform, m_Camera.transform);
+            legAnimator = gameObject.GetComponent<LegAnimator>();
+            //m_MouseLook.Init(transform, m_Camera.transform);
         }
 
+        /*
         private void FixedUpdate()
         {
   
@@ -220,7 +243,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
         }
-
+*/
 
         private void UpdateCameraPosition(float speed)
         {
@@ -317,12 +340,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
 
-        void OnControllerColliderHit(ControllerColliderHit hit){
-            if (hit.gameObject.CompareTag("Enemy"))
+        void OnControllerColliderHit(ControllerColliderHit collision)  {
+            if (!colliderEnter && collision.gameObject.CompareTag("Enemy") )
             {
+                colliderEnter = true;
                 SetReward(2f);
+                goaledCount++;
                 Done();
-     
+         
             }
         }
         

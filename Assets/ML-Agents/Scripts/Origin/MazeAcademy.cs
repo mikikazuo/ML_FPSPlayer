@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using MLAgents;
+using Debug = System.Diagnostics.Debug;
 
 public class MazeAcademy : Academy
 {
@@ -18,6 +19,5 @@ public class MazeAcademy : Academy
 
     public override void AcademyStep()
     {
-      
     }
 }
