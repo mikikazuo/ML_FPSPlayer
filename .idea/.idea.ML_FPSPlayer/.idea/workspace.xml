@@ -27,30 +27,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="20" />
-          <entry key="json" value="1" />
+          <entry key="cs" value="21" />
+          <entry key="json" value="3" />
+          <entry key="py" value="1" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="20" />
-          <entry key="JSON" value="1" />
+          <entry key="C#" value="21" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="276" />
-          <entry key="json" value="9" />
-          <entry key="yaml" value="20" />
+          <entry key="cs" value="485" />
+          <entry key="json" value="28" />
+          <entry key="yaml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="276" />
-          <entry key="JSON" value="9" />
-          <entry key="YAML" value="20" />
+          <entry key="C#" value="485" />
+          <entry key="JSON" value="28" />
+          <entry key="YAML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E635F8C4-E065-42FD-9980-DE39052F5E36/16/d9a650b6/ForceMode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ml-agents-master/ml-agents/curricula/MazeBrain.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -90,8 +101,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+            <state relative-caret-position="465">
+              <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ml-agents-master/ml-agents/mlagents/trainers/learn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="78" column="78" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -118,81 +138,121 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2762">
-              <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
+            <state relative-caret-position="416">
+              <caret line="293" column="17" lean-forward="true" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
               <folding>
-                <marker date="1543998521723" expanded="false" signature="6:244" ph="..." />
-                <marker date="1543998521723" expanded="true" signature="301:11789" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="338:11786" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="2314:2497" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="2584:2950" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="2702:2911" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="3027:3859" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="3067:3849" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="3903:5042" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="4081:4258" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="4275:4890" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="4376:4876" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="5125:5237" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="5280:5686" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="5732:5753" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="5763:5823" ph="/* 以下　プレイヤーコントロールに関して ... */" />
-                <marker date="1543998521723" expanded="true" signature="5852:6370" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="6406:7929" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="7253:7559" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="7349:7545" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="7576:7694" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="7840:7917" ph="/* UpdateCameraPosition(speed); ... */" />
-                <marker date="1543998521723" expanded="true" signature="7986:8910" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="8066:8118" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="8216:8632" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="8649:8834" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="8963:9481" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="9076:9281" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="9327:9379" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="9523:10112" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="9584:9636" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="9649:9745" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-                <marker date="1543998521723" expanded="true" signature="10161:11428" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="10429:10576" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-                <marker date="1543998521723" expanded="true" signature="10932:10997" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="11011:11147" ph="/* handle speed change to give an fov kick ... */" />
-                <marker date="1543998521723" expanded="true" signature="11257:11418" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="11463:11552" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="11617:11769" ph="{...}" />
-                <marker date="1543998521723" expanded="true" signature="11670:11759" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="6:243" ph="..." />
+                <marker date="1544006268643" expanded="true" signature="298:12074" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="335:12072" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="2372:2648" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="2736:3103" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="2855:3064" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="3172:3995" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="3212:3985" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="4039:5176" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="4217:4394" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="4411:5026" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="4512:5012" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="5259:5370" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="5413:5923" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="5968:5988" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="5998:6058" ph="/* 以下　プレイヤーコントロールに関して ... */" />
+                <marker date="1544006268643" expanded="true" signature="6087:6605" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="6641:8144" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="7470:7776" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="7566:7762" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="7793:7911" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="8057:8134" ph="/* UpdateCameraPosition(speed); ... */" />
+                <marker date="1544006268643" expanded="true" signature="8201:9129" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="8281:8333" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="8432:8850" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="8867:9052" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9182:9734" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9295:9534" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9580:9632" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9776:10366" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9837:9889" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="9903:9999" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
+                <marker date="1544006268643" expanded="true" signature="10415:11682" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="10683:10830" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+                <marker date="1544006268643" expanded="true" signature="11186:11251" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="11265:11401" ph="/* handle speed change to give an fov kick ... */" />
+                <marker date="1544006268643" expanded="true" signature="11511:11672" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="11717:11806" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="11871:12066" ph="{...}" />
+                <marker date="1544006268643" expanded="true" signature="11943:12056" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/goal.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Character Controller Scripts/PlatformCharacterController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Batcher.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="197">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <marker date="1519256097000" expanded="false" signature="6:44" ph="..." />
-                <marker date="1519256097000" expanded="true" signature="103:2022" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="310:429" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="484:2020" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="1419:1941" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="1451:1495" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="1524:1795" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="1552:1790" ph="{...}" />
-                <marker date="1519256097000" expanded="true" signature="1892:1937" ph="{...}" />
+                <marker date="1541068680203" expanded="false" signature="6:94" ph="..." />
+                <marker date="1541068680203" expanded="true" signature="114:14512" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="121:779" ph="/// The batcher is an RL specific class that makes sure that the information each object in  ... " />
+                <marker date="1541068680203" expanded="true" signature="804:14510" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="2331:2519" ph="/// Initializes a new instance of the Batcher class. ... " />
+                <marker date="1541068680203" expanded="true" signature="2569:2637" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="2647:3016" ph="/// Sends the academy parameters through the Communicator.  ... " />
+                <marker date="1541068680203" expanded="true" signature="3180:4202" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="3332:3645" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="3496:3594" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="3676:3911" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="4212:4506" ph="/// Registers the done flag of the academy to the next output to be sent ... " />
+                <marker date="1541068680203" expanded="true" signature="4561:4615" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="4625:4796" ph="/// Gets the command. Is used by the academy to get reset or quit signals. ... " />
+                <marker date="1541068680203" expanded="true" signature="4857:4907" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="4917:5142" ph="/// Gets the number of messages received so far. Can be used to check for new messages. ... " />
+                <marker date="1541068680203" expanded="true" signature="5190:5249" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="5259:5472" ph="/// Gets the environment parameters. Is used by the academy to update ... " />
+                <marker date="1541068680203" expanded="true" signature="5561:5625" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="5635:5829" ph="/// Gets the last training_mode flag External sent ... " />
+                <marker date="1541068680203" expanded="true" signature="5865:5918" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="5928:6114" ph="/// Adds the brain to the list of brains which will be sending information to External. ... " />
+                <marker date="1541068680203" expanded="true" signature="6166:6499" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="6509:6755" ph="/// Converts a AgentInfo to a protobuffer generated AgentInfoProto ... " />
+                <marker date="1541068680203" expanded="true" signature="6889:7955" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="6985:7418" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="7458:7546" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="7588:7686" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="7749:7910" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="7965:8335" ph="/// Converts a Brain into to a Protobuff BrainInfoProto so it can be sent ... " />
+                <marker date="1541068680203" expanded="true" signature="8523:9712" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="8635:9123" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="9325:9661" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="9480:9645" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="9722:10209" ph="/// Sends the brain info. If at least one brain has an agent in need of ... " />
+                <marker date="1541068680203" expanded="true" signature="10313:12154" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="10336:10428" ph="/* If no communicator is initialized, the Batcher will not transmit ... */" />
+                <marker date="1541068680203" expanded="true" signature="10468:10520" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="10789:10871" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="10884:10997" ph="/* If at least one agent has data to send, then append data to ... */" />
+                <marker date="1541068680203" expanded="true" signature="11050:11450" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="11131:11392" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="11464:11550" ph="/* If any agent needs to send data, then the whole message ... */" />
+                <marker date="1541068680203" expanded="true" signature="11599:12144" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="11680:11835" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="11852:11948" ph="/* The message was just sent so we must reset hasSentState and ... */" />
+                <marker date="1541068680203" expanded="true" signature="12007:12130" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="12164:12359" ph="/// Helper method that sends the curent UnityRLOutput, receives the next UnityInput and ... " />
+                <marker date="1541068680203" expanded="true" signature="12399:14503" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="12510:12575" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="12688:12784" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="12815:12934" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13039:13158" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13363:13415" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13481:14480" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13558:13636" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13706:13784" ph="{...}" />
+                <marker date="1541068680203" expanded="true" signature="13865:14462" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -415,15 +475,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8580">
-              <caret line="572" selection-start-line="572" selection-end-line="572" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4530">
@@ -612,7 +663,6 @@
       <find>done</find>
       <find>ini_</find>
       <find>myArea.</find>
-      <find>reset</find>
       <find>AgentAction</find>
       <find>action</find>
       <find>rayperception</find>
@@ -626,6 +676,13 @@
       <find>SetReward</find>
       <find>RotateView</find>
       <find>enterflag</find>
+      <find>reset</find>
+      <find>goal</find>
+      <find>use</find>
+      <find>use[</find>
+      <find>academy</find>
+      <find>curricul</find>
+      <find>enter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -646,6 +703,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Locomotion System/LegAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/Close.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Batcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/CoreBrainHeuristic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DDecision.cs" root0="FORCE_HIGHLIGHTING" />
@@ -659,8 +717,9 @@
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" />
         <option value="$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml" />
-        <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/goal.json" />
+        <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" />
+        <option value="$PROJECT_DIR$/../ml-agents-master/ml-agents/curricula/MazeBrain.json" />
       </list>
     </option>
   </component>
@@ -671,10 +730,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="563" />
-    <option name="y" value="852" />
+    <option name="x" value="145" />
+    <option name="y" value="898" />
     <option name="width" value="1043" />
-    <option name="height" value="750" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -775,7 +834,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34456000" />
+    <option name="totallyTimeSpent" value="37868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,10 +846,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="134" y="439" width="1043" height="751" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.071428575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1363174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1158,52 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidArea.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <marker date="1541068673525" expanded="false" signature="6:94" ph="..." />
-            <marker date="1541068673525" expanded="true" signature="127:1643" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="347:418" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="494:570" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="667:924" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="718:918" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="999:1394" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="1430:1582" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="1517:1576" ph="{...}" />
-            <marker date="1541068673525" expanded="true" signature="1620:1641" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E635F8C4-E065-42FD-9980-DE39052F5E36/16/d9a650b6/ForceMode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <marker date="1541068667730" expanded="false" signature="6:94" ph="..." />
-            <marker date="1541068667730" expanded="true" signature="128:2387" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="267:328" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="376:616" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="695:1866" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="791:1467" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="1095:1199" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="1353:1457" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="1730:1798" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="1811:1860" ph="{...}" />
-            <marker date="1541068667730" expanded="true" signature="1905:2384" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4530">
@@ -1377,62 +1390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2762">
-          <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
-          <folding>
-            <marker date="1543998521723" expanded="false" signature="6:244" ph="..." />
-            <marker date="1543998521723" expanded="true" signature="301:11789" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="338:11786" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="2314:2497" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="2584:2950" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="2702:2911" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="3027:3859" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="3067:3849" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="3903:5042" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="4081:4258" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="4275:4890" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="4376:4876" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="5125:5237" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="5280:5686" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="5732:5753" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="5763:5823" ph="/* 以下　プレイヤーコントロールに関して ... */" />
-            <marker date="1543998521723" expanded="true" signature="5852:6370" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="6406:7929" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="7253:7559" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="7349:7545" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="7576:7694" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="7840:7917" ph="/* UpdateCameraPosition(speed); ... */" />
-            <marker date="1543998521723" expanded="true" signature="7986:8910" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="8066:8118" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="8216:8632" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="8649:8834" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="8963:9481" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="9076:9281" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="9327:9379" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="9523:10112" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="9584:9636" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="9649:9745" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1543998521723" expanded="true" signature="10161:11428" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="10429:10576" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1543998521723" expanded="true" signature="10932:10997" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="11011:11147" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1543998521723" expanded="true" signature="11257:11418" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="11463:11552" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="11617:11769" ph="{...}" />
-            <marker date="1543998521723" expanded="true" signature="11670:11759" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/ResetPosition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1448,10 +1405,200 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidArea.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <marker date="1541068673525" expanded="false" signature="6:94" ph="..." />
+            <marker date="1541068673525" expanded="true" signature="127:1643" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="347:418" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="494:570" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="667:924" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="718:918" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="999:1394" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="1430:1582" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="1517:1576" ph="{...}" />
+            <marker date="1541068673525" expanded="true" signature="1620:1641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/goal.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-agents-master/ml-agents/goal.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Batcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <marker date="1541068680203" expanded="false" signature="6:94" ph="..." />
+            <marker date="1541068680203" expanded="true" signature="114:14512" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="121:779" ph="/// The batcher is an RL specific class that makes sure that the information each object in  ... " />
+            <marker date="1541068680203" expanded="true" signature="804:14510" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="2331:2519" ph="/// Initializes a new instance of the Batcher class. ... " />
+            <marker date="1541068680203" expanded="true" signature="2569:2637" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="2647:3016" ph="/// Sends the academy parameters through the Communicator.  ... " />
+            <marker date="1541068680203" expanded="true" signature="3180:4202" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="3332:3645" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="3496:3594" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="3676:3911" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="4212:4506" ph="/// Registers the done flag of the academy to the next output to be sent ... " />
+            <marker date="1541068680203" expanded="true" signature="4561:4615" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="4625:4796" ph="/// Gets the command. Is used by the academy to get reset or quit signals. ... " />
+            <marker date="1541068680203" expanded="true" signature="4857:4907" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="4917:5142" ph="/// Gets the number of messages received so far. Can be used to check for new messages. ... " />
+            <marker date="1541068680203" expanded="true" signature="5190:5249" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="5259:5472" ph="/// Gets the environment parameters. Is used by the academy to update ... " />
+            <marker date="1541068680203" expanded="true" signature="5561:5625" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="5635:5829" ph="/// Gets the last training_mode flag External sent ... " />
+            <marker date="1541068680203" expanded="true" signature="5865:5918" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="5928:6114" ph="/// Adds the brain to the list of brains which will be sending information to External. ... " />
+            <marker date="1541068680203" expanded="true" signature="6166:6499" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="6509:6755" ph="/// Converts a AgentInfo to a protobuffer generated AgentInfoProto ... " />
+            <marker date="1541068680203" expanded="true" signature="6889:7955" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="6985:7418" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="7458:7546" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="7588:7686" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="7749:7910" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="7965:8335" ph="/// Converts a Brain into to a Protobuff BrainInfoProto so it can be sent ... " />
+            <marker date="1541068680203" expanded="true" signature="8523:9712" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="8635:9123" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="9325:9661" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="9480:9645" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="9722:10209" ph="/// Sends the brain info. If at least one brain has an agent in need of ... " />
+            <marker date="1541068680203" expanded="true" signature="10313:12154" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="10336:10428" ph="/* If no communicator is initialized, the Batcher will not transmit ... */" />
+            <marker date="1541068680203" expanded="true" signature="10468:10520" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="10789:10871" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="10884:10997" ph="/* If at least one agent has data to send, then append data to ... */" />
+            <marker date="1541068680203" expanded="true" signature="11050:11450" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="11131:11392" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="11464:11550" ph="/* If any agent needs to send data, then the whole message ... */" />
+            <marker date="1541068680203" expanded="true" signature="11599:12144" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="11680:11835" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="11852:11948" ph="/* The message was just sent so we must reset hasSentState and ... */" />
+            <marker date="1541068680203" expanded="true" signature="12007:12130" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="12164:12359" ph="/// Helper method that sends the curent UnityRLOutput, receives the next UnityInput and ... " />
+            <marker date="1541068680203" expanded="true" signature="12399:14503" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="12510:12575" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="12688:12784" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="12815:12934" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13039:13158" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13363:13415" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13481:14480" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13558:13636" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13706:13784" ph="{...}" />
+            <marker date="1541068680203" expanded="true" signature="13865:14462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1541068667730" expanded="false" signature="6:94" ph="..." />
+            <marker date="1541068667730" expanded="true" signature="128:2387" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="267:328" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="376:616" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="695:1866" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="791:1467" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="1095:1199" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="1353:1457" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="1730:1798" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="1811:1860" ph="{...}" />
+            <marker date="1541068667730" expanded="true" signature="1905:2384" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E635F8C4-E065-42FD-9980-DE39052F5E36/16/d9a650b6/ForceMode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-agents-master/ml-agents/mlagents/trainers/learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="78" column="78" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-agents-master/ml-agents/curricula/MazeBrain.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="293" column="17" lean-forward="true" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
+          <folding>
+            <marker date="1544006268643" expanded="true" signature="6:243" ph="..." />
+            <marker date="1544006268643" expanded="true" signature="298:12074" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="335:12072" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="2372:2648" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="2736:3103" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="2855:3064" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="3172:3995" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="3212:3985" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="4039:5176" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="4217:4394" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="4411:5026" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="4512:5012" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="5259:5370" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="5413:5923" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="5968:5988" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="5998:6058" ph="/* 以下　プレイヤーコントロールに関して ... */" />
+            <marker date="1544006268643" expanded="true" signature="6087:6605" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="6641:8144" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="7470:7776" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="7566:7762" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="7793:7911" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="8057:8134" ph="/* UpdateCameraPosition(speed); ... */" />
+            <marker date="1544006268643" expanded="true" signature="8201:9129" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="8281:8333" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="8432:8850" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="8867:9052" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9182:9734" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9295:9534" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9580:9632" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9776:10366" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9837:9889" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="9903:9999" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
+            <marker date="1544006268643" expanded="true" signature="10415:11682" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="10683:10830" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+            <marker date="1544006268643" expanded="true" signature="11186:11251" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="11265:11401" ph="/* handle speed change to give an fov kick ... */" />
+            <marker date="1544006268643" expanded="true" signature="11511:11672" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="11717:11806" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="11871:12066" ph="{...}" />
+            <marker date="1544006268643" expanded="true" signature="11943:12056" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

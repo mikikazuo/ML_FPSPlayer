@@ -4,12 +4,9 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using MLAgents;
-
 using System;
 using System.Linq;
 using Random = UnityEngine.Random;
-
-
 
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -36,9 +33,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();
         [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
         [SerializeField] private float m_StepInterval;
-        [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
-        [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
-        [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+
+        [SerializeField]
+        private AudioClip[] m_FootstepSounds; // an array of footstep sounds that will be randomly selected from.
+
+        [SerializeField] private AudioClip m_JumpSound; // the sound played when character leaves the ground.
+        [SerializeField] private AudioClip m_LandSound; // the sound played when character touches back on ground.
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -54,6 +54,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        private bool enter = false;
+
+        private MazeAcademy academy;
 
         //初期化   
         public override void InitializeAgent()
@@ -62,14 +65,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             rayPer = GetComponent<RayPerception>();
 
             m_CharacterController = GetComponent<CharacterController>();
-
+            academy = GameObject.Find("MazeAcademy").GetComponent<MazeAcademy>();
+           
         }
+
         //リストの中身を表示
         public void ShowListContentsInTheDebugLog<T>(List<T> list)
         {
             string log = "";
 
-            foreach(var content in list.Select((val, idx) => new {val, idx}))
+            foreach (var content in list.Select((val, idx) => new {val, idx}))
             {
                 if (content.idx == list.Count - 1)
                     log += content.val.ToString();
@@ -79,18 +84,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             Debug.Log(log);
         }
-        
+
         //状態を伝える
         public override void CollectObservations()
         {
             if (useVectorObs)
             {
                 const float rayDistance = 35f;
-                float[] rayAngles = { 20f, 90f, 160f, 45f, 135f, 70f, 110f };
-                float[] rayAngles1 = { 25f, 95f, 165f, 50f, 140f, 75f, 115f };
-                float[] rayAngles2 = { 15f, 85f, 155f, 40f, 130f, 65f, 105f };
+                float[] rayAngles = {20f, 90f, 160f, 45f, 135f, 70f, 110f};
+                float[] rayAngles1 = {25f, 95f, 165f, 50f, 140f, 75f, 115f};
+                float[] rayAngles2 = {15f, 85f, 155f, 40f, 130f, 65f, 105f};
 
-                string[] detectableObjects = { "wall",  "Enemy" };
+                string[] detectableObjects = {"wall", "Enemy"};
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
@@ -127,21 +132,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         break;
                 }
             }
-   
+
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
-            m_CharacterController.Move(dirToGo * Time.fixedDeltaTime *4);
+            m_CharacterController.Move(dirToGo * Time.fixedDeltaTime * 4);
         }
 
         public override void AgentAction(float[] vectorAction, string textAction)
         {
             AddReward(-1f / agentParameters.maxStep);
             MoveAgent(vectorAction);
-
         }
 
         public override void AgentReset()
         {
-       
             var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
             var items = enumerable.ToArray();
 
@@ -149,15 +152,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             resetPosition.PlaceObject(gameObject, items[0]);
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
-
-            resetPosition.CreateGoal( items[3]);
+            for (int i = 0; i < (int) academy.resetParameters["GoalNum"]; i++)
+                resetPosition.CreateGoal(items[i + 1]);
+            enter = false;
         }
-
 
 
         public override void AgentOnDone()
         {
-
         }
 
         //以下　プレイヤーコントロールに関して
@@ -179,7 +181,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
-  
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at
@@ -188,7 +189,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // get a normal for the surface that is being touched to move along it
             RaycastHit hitInfo;
             Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                               m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+                m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
             m_MoveDir.x = desiredMove.x * speed;
@@ -217,8 +218,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //UpdateCameraPosition(speed);
 
             //m_MouseLook.UpdateCursorLock();
-
-
         }
 
 
@@ -229,11 +228,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
+
             if (m_CharacterController.velocity.magnitude > 0 && m_CharacterController.isGrounded)
             {
                 m_Camera.transform.localPosition =
                     m_HeadBob.DoHeadBob(m_CharacterController.velocity.magnitude +
-                                      (speed * (m_IsWalking ? 1f : m_RunstepLenghten)));
+                                        (speed * (m_IsWalking ? 1f : m_RunstepLenghten)));
                 newCameraPosition = m_Camera.transform.localPosition;
                 newCameraPosition.y = m_Camera.transform.localPosition.y - m_JumpBob.Offset();
             }
@@ -242,6 +242,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 newCameraPosition = m_Camera.transform.localPosition;
                 newCameraPosition.y = m_OriginalCameraPosition.y - m_JumpBob.Offset();
             }
+
             m_Camera.transform.localPosition = newCameraPosition;
         }
 
@@ -249,8 +250,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
             {
-                m_StepCycle += (m_CharacterController.velocity.magnitude + (speed * (m_IsWalking ? 1f : m_RunstepLenghten))) *
-                             Time.fixedDeltaTime;
+                m_StepCycle += (m_CharacterController.velocity.magnitude +
+                                (speed * (m_IsWalking ? 1f : m_RunstepLenghten))) *
+                               Time.fixedDeltaTime;
             }
 
             if (!(m_StepCycle > m_NextStep))
@@ -269,6 +271,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
+
             // pick & play a random footstep sound from the array,
             // excluding sound at index 0
             int n = Random.Range(1, m_FootstepSounds.Length);
@@ -317,18 +320,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
 
-        void OnControllerColliderHit(ControllerColliderHit hit){
-            if (hit.gameObject.CompareTag("Enemy"))
+        void OnControllerColliderHit(ControllerColliderHit hit)
+        {
+            if (!enter && hit.gameObject.CompareTag("Enemy"))
             {
+                enter = true;
                 SetReward(2f);
                 Done();
-     
             }
         }
-        
-
-
     }
-
 }
-
