@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 136954144646838598}
   m_Layer: 11
   m_Name: Props_Garbage (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 65201372763410860}
   m_Layer: 11
   m_Name: Props_SingsCrosswalk (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 65695579346070958}
   m_Layer: 11
   m_Name: Props_MetalFence (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 65450359054503036}
   m_Layer: 11
   m_Name: Props_MetalFence (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1475,7 +1475,7 @@ GameObject:
   - component: {fileID: 65855846002372360}
   m_Layer: 11
   m_Name: Props_SingsStop
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1493,7 +1493,7 @@ GameObject:
   - component: {fileID: 65125508754954412}
   m_Layer: 11
   m_Name: Props_MetalFence (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 65506790885873078}
   m_Layer: 11
   m_Name: Props_Cone (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 136711760633261330}
   m_Layer: 11
   m_Name: Props_Garbage (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2491,7 +2491,7 @@ GameObject:
   - component: {fileID: 136613562388470776}
   m_Layer: 11
   m_Name: Props_Garbage
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2762,7 +2762,7 @@ GameObject:
   - component: {fileID: 65609770114725132}
   m_Layer: 11
   m_Name: Props_Ventil
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2973,7 +2973,7 @@ GameObject:
   - component: {fileID: 65310145588521632}
   m_Layer: 11
   m_Name: Props_MetalFence (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3131,7 +3131,7 @@ GameObject:
   - component: {fileID: 65944196432056150}
   m_Layer: 11
   m_Name: Props_Garage
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3487,7 +3487,7 @@ GameObject:
   - component: {fileID: 65454181887663050}
   m_Layer: 11
   m_Name: PropsFence (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3833,7 +3833,7 @@ GameObject:
   - component: {fileID: 23359370825959154}
   m_Layer: 11
   m_Name: Props_Manhole (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3898,7 +3898,7 @@ GameObject:
   - component: {fileID: 23467615983052406}
   m_Layer: 11
   m_Name: Props_Manhole (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3988,7 +3988,7 @@ GameObject:
   - component: {fileID: 23782791829398818}
   m_Layer: 11
   m_Name: Props_Manhole (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 23732555150473936}
   m_Layer: 11
   m_Name: Props_Manhole (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4651,7 +4651,7 @@ GameObject:
   - component: {fileID: 65530939601913908}
   m_Layer: 11
   m_Name: Props_ConcBlock
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4772,7 +4772,7 @@ GameObject:
   - component: {fileID: 65699844087912986}
   m_Layer: 11
   m_Name: PropsFence (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4827,7 +4827,7 @@ GameObject:
   - component: {fileID: 136398228403955460}
   m_Layer: 11
   m_Name: Props_Garbage (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4990,7 +4990,7 @@ GameObject:
   - component: {fileID: 65627650131335446}
   m_Layer: 11
   m_Name: Props_MetalFence
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5043,7 +5043,7 @@ GameObject:
   - component: {fileID: 65690544645301424}
   m_Layer: 11
   m_Name: Props_Cone (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5179,7 +5179,7 @@ GameObject:
   - component: {fileID: 65465072641352982}
   m_Layer: 11
   m_Name: Props_MetalFence (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5612,7 +5612,7 @@ GameObject:
   - component: {fileID: 65994647612183982}
   m_Layer: 11
   m_Name: Props_Ventil (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5630,7 +5630,7 @@ GameObject:
   - component: {fileID: 65954644761931104}
   m_Layer: 11
   m_Name: Props_Ventil (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5748,7 +5748,7 @@ GameObject:
   - component: {fileID: 65340275739230386}
   m_Layer: 11
   m_Name: Props_SingsCrosswalk
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6377,7 +6377,7 @@ GameObject:
   - component: {fileID: 65579340135331342}
   m_Layer: 11
   m_Name: Props_SingsCrosswalk (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6410,7 +6410,7 @@ GameObject:
   - component: {fileID: 136778961847811996}
   m_Layer: 11
   m_Name: Props_Garbage (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6548,7 +6548,7 @@ GameObject:
   - component: {fileID: 65124894415420458}
   m_Layer: 11
   m_Name: Props_SingsCrosswalk (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6583,7 +6583,7 @@ GameObject:
   - component: {fileID: 23495842310349496}
   m_Layer: 11
   m_Name: Props_Manhole
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6839,7 +6839,7 @@ GameObject:
   - component: {fileID: 23151154581387326}
   m_Layer: 11
   m_Name: Props_Manhole (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6891,7 +6891,7 @@ GameObject:
   - component: {fileID: 65969205570875284}
   m_Layer: 11
   m_Name: Props_Cone (2)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7099,7 +7099,7 @@ GameObject:
   - component: {fileID: 23933245639900254}
   m_Layer: 11
   m_Name: Props_Manhole (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7188,7 +7188,7 @@ GameObject:
   - component: {fileID: 65968566978553268}
   m_Layer: 11
   m_Name: Props_Cone
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7205,7 +7205,7 @@ GameObject:
   - component: {fileID: 23087533979470646}
   m_Layer: 11
   m_Name: Props_Manhole (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7241,7 +7241,7 @@ GameObject:
   - component: {fileID: 65072381431575058}
   m_Layer: 11
   m_Name: Props_MetalFence (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11347,7 +11347,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589758592828820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -50, z: 0}
+  m_LocalPosition: {x: 0, y: 4.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4648037766220360}

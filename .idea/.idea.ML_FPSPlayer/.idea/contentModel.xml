@@ -926,6 +926,7 @@
             <e p="Decision.cs" t="Include" />
             <e p="Monitor.cs" t="Include" />
             <e p="Origin" t="Include">
+              <e p="goal.json" t="Include" />
               <e p="MazeAcademy.cs" t="Include" />
               <e p="MazeAgent.cs" t="Include" />
               <e p="ResetPosition.cs" t="Include" />

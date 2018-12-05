@@ -92,8 +92,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 string[] detectableObjects = { "wall",  "Enemy" };
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.0f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 0.5f, 0f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
             }
         }
