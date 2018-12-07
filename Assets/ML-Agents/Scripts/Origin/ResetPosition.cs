@@ -26,7 +26,8 @@ public class ResetPosition : MonoBehaviour
         var xRange = spawnTransform.localScale.x / 2.1f;
         var zRange = spawnTransform.localScale.z / 2.1f;
 
-        objectToPlace.transform.position =  spawnTransform.position;
+        objectToPlace.transform.position = new Vector3(Random.Range(-xRange, xRange), 0, Random.Range(-zRange, zRange))
+                                           + spawnTransform.position;
     }
 
     public void CleanGoal()
@@ -37,5 +38,4 @@ public class ResetPosition : MonoBehaviour
                 Destroy(child.gameObject);
             }
     }
-
 }

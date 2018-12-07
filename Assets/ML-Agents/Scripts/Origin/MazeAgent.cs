@@ -58,6 +58,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private MazeAcademy academy;
 
+        //過学習検証用
+        private int goaledCount = 0;
+        private int episodeCount = -1;
+        public int GoaledCount{
+            get{ return goaledCount; }
+        }
+        public int EpisodeCount{
+            get{ return episodeCount; }
+        }
+        
         //初期化   
         public override void InitializeAgent()
         {
@@ -155,6 +165,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             for (int i = 0; i < (int) academy.resetParameters["GoalNum"]; i++)
                 resetPosition.CreateGoal(items[i + 1]);
             enter = false;
+            episodeCount++;
         }
 
 
@@ -327,6 +338,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 enter = true;
                 SetReward(2f);
                 Done();
+                goaledCount++;
             }
         }
     }
