@@ -131,10 +131,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
 
+        private int count;
         public void MoveAgent(float[] act)
         {
             var dirToGo = Vector3.zero;
             var rotateDir = Vector3.zero;
+
 
             if (brain.brainParameters.vectorActionSpaceType == SpaceType.continuous)
             {
@@ -159,11 +161,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         rotateDir = transform.up * -1f;
                         break;
                     case 5:
-                        gunAction.triggerGun();
+                        if (count % 5 == 0)                     
+                            gunAction.triggerGun();
+                        count++;
+
                         break;
                 }
             }
-
+           
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
             m_CharacterController.Move(dirToGo * Time.deltaTime * 3);
         }

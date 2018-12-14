@@ -41,7 +41,6 @@ public class GunActionML : MonoBehaviour
         GameObject bulletInstance = Instantiate(bullet, muzzle_Offset.position, muzzle_Offset.rotation);
         bulletInstance.GetComponent<Rigidbody>().AddForce(bulletInstance.transform.forward * bullet_Power);
         bulletInstance.GetComponent<BulletAttack>().owner = agent;
-        Destroy(bulletInstance, 5f);
 
         /*
         switch (_faze)

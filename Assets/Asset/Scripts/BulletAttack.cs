@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Threading;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class BulletAttack : MonoBehaviour
@@ -11,6 +12,18 @@ public class BulletAttack : MonoBehaviour
     private GameObject shotEffect;
 
     public MazeAgent owner;
+
+    private float count;
+    private void Update()
+    {
+        count += Time.deltaTime;
+        if (count > 5.0f)
+        {
+            Destroy(this.gameObject);
+            owner.AddReward(-0.01f);
+        }
+    }
+
     private void OnTriggerEnter(Collider col)
     {
         Destroy(this.gameObject);
@@ -23,7 +36,6 @@ public class BulletAttack : MonoBehaviour
             target.Hp -= atk;
             //target.resetPosition.addReward(target,owner);
             owner.AddReward(0.1f);
-        }else
-            owner.AddReward(-0.01f);
+        }
     }
 }
