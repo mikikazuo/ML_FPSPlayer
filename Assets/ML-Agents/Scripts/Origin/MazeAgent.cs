@@ -67,6 +67,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public int EpisodeCount{
             get{ return episodeCount; }
         }
+
+        private GunActionML gunAction;
+        
+        [SerializeField]
+        protected int maxHp = 100;
+        protected int hp;
+
+        public int Hp
+        {
+            get { return hp; }
+            set { hp = value < 0 ? hp = 0 : value; }
+        }
+        public int MaxHp
+        {
+            get { return maxHp; }
+        }
         
         //初期化   
         public override void InitializeAgent()
@@ -100,13 +116,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (useVectorObs)
             {
-                const float rayDistance = 35f;
+                const float rayDistance = 40f;
                 float[] rayAngles = {20f, 90f, 160f, 45f, 135f, 70f, 110f};
                 float[] rayAngles1 = {25f, 95f, 165f, 50f, 140f, 75f, 115f};
                 float[] rayAngles2 = {15f, 85f, 155f, 40f, 130f, 65f, 105f};
 
-                string[] detectableObjects = {"wall", "Enemy"};
+                string[] detectableObjects = {"wall", "agent"};
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, 0f));
+                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, 0f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
@@ -140,11 +158,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     case 4:
                         rotateDir = transform.up * -1f;
                         break;
+                    case 5:
+                        gunAction.triggerGun();
+                        break;
                 }
             }
 
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
-            m_CharacterController.Move(dirToGo * Time.fixedDeltaTime * 4);
+            m_CharacterController.Move(dirToGo * Time.deltaTime * 3);
         }
 
         public override void AgentAction(float[] vectorAction, string textAction)
@@ -155,15 +176,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public override void AgentReset()
         {
-            var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
-            var items = enumerable.ToArray();
 
+
+            /*
             resetPosition.CleanGoal();
-
             resetPosition.PlaceObject(gameObject, items[0]);
-            transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
+
+                    
             for (int i = 0; i < (int) academy.resetParameters["GoalNum"]; i++)
                 resetPosition.CreateGoal(items[i + 1]);
+                    */
+            transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
+            Hp = MaxHp;
             enter = false;
             episodeCount++;
         }
@@ -188,6 +212,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
+            gunAction = GetComponent<GunActionML>();
         }
 
         private void FixedUpdate()
@@ -330,7 +355,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
-
+        /*
         void OnControllerColliderHit(ControllerColliderHit hit)
         {
             if (!enter && hit.gameObject.CompareTag("Enemy"))
@@ -341,5 +366,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 goaledCount++;
             }
         }
+        */
     }
 }

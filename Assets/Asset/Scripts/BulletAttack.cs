@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class BulletAttack : MonoBehaviour
 {
@@ -9,23 +10,20 @@ public class BulletAttack : MonoBehaviour
     [SerializeField]
     private GameObject shotEffect;
 
-    public void Start()
+    public MazeAgent owner;
+    private void OnTriggerEnter(Collider col)
     {
-    
-    }
-    private void OnCollisionEnter(Collision col)
-    {
+        Destroy(this.gameObject);
         var effectInstance = GameObject.Instantiate(shotEffect, transform.position, Quaternion.identity);
-        Destroy(effectInstance, 3f);
+        Destroy(effectInstance, 2f);
 
-
-
-        HumanBase target = col.gameObject.GetComponent<HumanBase>();
+        MazeAgent target = col.gameObject.GetComponent<MazeAgent>();
         if (target)
         {
             target.Hp -= atk;
-        }
-
-        Destroy(this.gameObject);
+            //target.resetPosition.addReward(target,owner);
+            owner.AddReward(0.1f);
+        }else
+            owner.AddReward(-0.01f);
     }
 }
