@@ -37,5 +37,9 @@ public class BulletAttack : MonoBehaviour
             //target.resetPosition.addReward(target,owner);
             owner.AddReward(0.1f);
         }
+        else
+        {
+            owner.AddReward(-0.01f);
+        }
     }
 }

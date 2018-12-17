@@ -123,8 +123,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 string[] detectableObjects = {"wall", "agent"};
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, 0f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
                 AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
@@ -164,6 +162,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         if (count % 5 == 0)                     
                             gunAction.triggerGun();
                         count++;
+                        Debug.Log(count);
 
                         break;
                 }
