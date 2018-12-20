@@ -30,7 +30,8 @@ public class BulletAttack : MonoBehaviour
         var effectInstance = GameObject.Instantiate(shotEffect, transform.position, Quaternion.identity);
         Destroy(effectInstance, 2f);
 
-        MazeAgent target = col.gameObject.GetComponent<MazeAgent>();
+        //azeAgent target = col.gameObject.GetComponent<MazeAgent>();
+        HumanBase target = col.gameObject.GetComponent<HumanBase>();
         if (target)
         {
             target.Hp -= atk;

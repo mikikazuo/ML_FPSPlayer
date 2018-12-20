@@ -36,6 +36,7 @@
             <e p="HpBarCtrl.cs" t="Include" />
             <e p="MoveTest.cs" t="Include" />
             <e p="Parameters.cs" t="Include" />
+            <e p="RandomWalk.cs" t="Include" />
             <e p="WeaponStatus.cs" t="Include" />
             <e p="人物" t="Include">
               <e p="EnemyStatus.cs" t="Include" />
@@ -700,7 +701,6 @@
         <e p="BodyGuards" t="Include">
           <e p="ReadMe.txt.txt" t="Include" />
         </e>
-        <e p="Evaluation.cs" t="Include" />
         <e p="Locomotion System Files" t="Include">
           <e p="Character Controller Scripts" t="Include">
             <e p="AccelerationCharacterController.cs" t="Include" />
@@ -922,6 +922,7 @@
             <e p="Decision.cs" t="Include" />
             <e p="Monitor.cs" t="Include" />
             <e p="Origin" t="Include">
+              <e p="Evaluation.cs" t="Include" />
               <e p="GunActionML.cs" t="Include" />
               <e p="MazeAcademy.cs" t="Include" />
               <e p="MazeAgent.cs" t="Include" />

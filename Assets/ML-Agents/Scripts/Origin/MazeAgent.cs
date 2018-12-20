@@ -111,6 +111,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             Debug.Log(log);
         }
 
+        public bool damager;
+
         //状態を伝える
         public override void CollectObservations()
         {
@@ -162,14 +164,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         if (count % 5 == 0)                     
                             gunAction.triggerGun();
                         count++;
-                        Debug.Log(count);
-
                         break;
                 }
             }
            
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
-            m_CharacterController.Move(dirToGo * Time.deltaTime * 3);
+            m_CharacterController.Move(dirToGo * Time.deltaTime * 4);
         }
 
         public override void AgentAction(float[] vectorAction, string textAction)
