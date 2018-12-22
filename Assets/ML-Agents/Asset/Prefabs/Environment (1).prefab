@@ -13142,7 +13142,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589758592828820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.7, z: 0}
+  m_LocalPosition: {x: 0, y: -750, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4648037766220360}
@@ -35188,8 +35188,8 @@ MonoBehaviour:
     - {fileID: 4619828065720220}
     - {fileID: 4426855119499090}
     legLength: 0.79958904
-    ankleHeelVector: {x: 0.0116465865, y: -0.13072938, z: 0.0044194357}
-    toeToetipVector: {x: 0.002408396, y: 0.032861724, z: -0.013074057}
+    ankleHeelVector: {x: 0.011644369, y: -0.13070779, z: 0.004403873}
+    toeToetipVector: {x: 0.0024090244, y: 0.032869328, z: -0.013074094}
     debugColor: {r: 1, g: 0, b: 0, a: 1}
   - hip: {fileID: 4487794345681782}
     ankle: {fileID: 4796899463124820}
@@ -35207,7 +35207,7 @@ MonoBehaviour:
     - {fileID: 4235988317362442}
     legLength: 0.79958874
     ankleHeelVector: {x: -0.011104134, y: 0.13207522, z: -0.0064253104}
-    toeToetipVector: {x: -0.0019566219, y: -0.033931084, z: 0.013298051}
+    toeToetipVector: {x: -0.0019563509, y: -0.03392728, z: 0.0132980645}
     debugColor: {r: -0.33333325, g: 0.66666657, b: 0.6666667, a: 1}
   sourceAnimations:
   - name: Idle2
@@ -77024,8 +77024,8 @@ MonoBehaviour:
     - {fileID: 4870635633575208}
     - {fileID: 4571092267179408}
     legLength: 0.79958904
-    ankleHeelVector: {x: 0.0116465865, y: -0.13072938, z: 0.0044194357}
-    toeToetipVector: {x: 0.002408396, y: 0.032861724, z: -0.013074057}
+    ankleHeelVector: {x: 0.011644369, y: -0.13070779, z: 0.004403873}
+    toeToetipVector: {x: 0.0024090244, y: 0.032869328, z: -0.013074094}
     debugColor: {r: 1, g: 0, b: 0, a: 1}
   - hip: {fileID: 4091002524689546}
     ankle: {fileID: 4639812111885882}
@@ -77043,7 +77043,7 @@ MonoBehaviour:
     - {fileID: 4191442303150382}
     legLength: 0.79958874
     ankleHeelVector: {x: -0.011104134, y: 0.13207522, z: -0.0064253104}
-    toeToetipVector: {x: -0.0019566219, y: -0.033931084, z: 0.013298051}
+    toeToetipVector: {x: -0.0019563509, y: -0.03392728, z: 0.0132980645}
     debugColor: {r: -0.33333325, g: 0.66666657, b: 0.6666667, a: 1}
   sourceAnimations:
   - name: Idle2
@@ -118907,7 +118907,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.7
-  m_Radius: 0.3
+  m_Radius: 0.4
   m_SlopeLimit: 0
   m_StepOffset: 0
   m_SkinWidth: 0.08
@@ -118921,10 +118921,10 @@ CharacterController:
   m_GameObject: {fileID: 1525708839858032}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.7
-  m_Radius: 0.3
+  m_Radius: 0.4
   m_SlopeLimit: 0
   m_StepOffset: 0
   m_SkinWidth: 0.08

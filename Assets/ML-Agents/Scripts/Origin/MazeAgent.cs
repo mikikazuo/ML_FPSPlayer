@@ -107,7 +107,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 else
                     log += content.val.ToString() + ", ";
             }
-
             Debug.Log(log);
         }
 
