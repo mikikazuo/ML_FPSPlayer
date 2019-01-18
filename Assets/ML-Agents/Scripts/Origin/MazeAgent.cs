@@ -74,6 +74,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         protected int maxHp = 100;
         protected int hp;
 
+        
         public int Hp
         {
             get { return hp; }
@@ -189,11 +190,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
             for (int i = 0; i < (int) academy.resetParameters["GoalNum"]; i++)
                 resetPosition.CreateGoal(items[i + 1]);
                     */
+            var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
+            var items = enumerable.ToArray();
+
+            resetPosition.PlaceObject(gameObject, items[0]);
+            resetPosition.PlaceObject(resetPosition.enemy.gameObject, items[1]);
+            resetPosition.enemy.Hp = resetPosition.enemy.MaxHp;
+
+            
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
             Hp = MaxHp;
             enter = false;
             episodeCount++;
         }
+
 
 
         public override void AgentOnDone()
@@ -358,6 +368,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
+//        void OnTriggerEnter(Collider other) {
+//
+//            if (other.CompareTag("agent"))
+//            {
+//                HumanBase human = other.GetComponent<HumanBase>();
+//                if (human)
+//                {
+//                    human.Hp = 0;
+//            
+//                }
+//            }
+//        }
         /*
         void OnControllerColliderHit(ControllerColliderHit hit)
         {

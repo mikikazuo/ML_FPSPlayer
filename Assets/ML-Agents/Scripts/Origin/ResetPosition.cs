@@ -15,7 +15,7 @@ public class ResetPosition : MonoBehaviour
 
     //[SerializeField] private MazeAgent[] agent;
     [SerializeField] private MazeAgent agent;
-    [SerializeField] private HumanBase enemy;
+    public HumanBase enemy;
 
     private int[] items;
 
@@ -29,7 +29,7 @@ public class ResetPosition : MonoBehaviour
         enemy = GetComponentInChildren<HumanBase>();
         PlaceObject(agent.gameObject, items[0]);
         PlaceObject(enemy.gameObject, items[1]);
-        agent.Done();
+       
     }
 
 
@@ -76,13 +76,13 @@ public class ResetPosition : MonoBehaviour
 
         if (enemy.Hp == 0)
         {
-            var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
-            items = enumerable.ToArray();
-
-            PlaceObject(agent.gameObject, items[0]);
-            PlaceObject(enemy.gameObject, items[1]);
-            enemy.Hp = enemy.MaxHp;
-            agent.Done();
+//            var enumerable = Enumerable.Range(0, 9).OrderBy(x => Guid.NewGuid()).Take(9);
+//            items = enumerable.ToArray();
+//
+//            PlaceObject(agent.gameObject, items[0]);
+//            PlaceObject(enemy.gameObject, items[1]);
+//            enemy.Hp = enemy.MaxHp;
+            //agent.Done();
         }
     }
 
