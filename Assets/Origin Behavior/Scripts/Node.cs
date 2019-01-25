@@ -7,12 +7,6 @@ namespace BehaviorTreeSample
     /// </summary>
     public abstract class Node
     {
-        public enum BehaviorStatus
-        {
-            Inactive,
-            Running,
-            Completed
-        }
         protected GameObject _owner;
         public GameObject Owner
         {

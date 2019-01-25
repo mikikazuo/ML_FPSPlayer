@@ -885,6 +885,15 @@
               </e>
             </e>
           </e>
+          <e p="MadeModels" t="Include">
+            <e p="Attacker" t="Include">
+              <e p="nearAttacker" t="Include">
+                <e p="Graph" t="Include">
+                  <e p="新しいテキスト ドキュメント.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Scripts" t="Include">
             <e p="Academy.cs" t="Include" />
             <e p="ActionMasker.cs" t="Include" />
@@ -936,7 +945,16 @@
         </e>
         <e p="Origin Behavior" t="Include">
           <e p="Scripts" t="Include">
+            <e p="ActionNode.cs" t="Include" />
+            <e p="CompositeNode.cs" t="Include" />
+            <e p="ConditionalNode.cs" t="Include" />
             <e p="Node.cs" t="Include" />
+            <e p="Repeater.cs" t="Include" />
+            <e p="SBTTest.cs" t="Include" />
+            <e p="SBTTest2.cs" t="Include" />
+            <e p="Selector.cs" t="Include" />
+            <e p="Sequencer.cs" t="Include" />
+            <e p="SimpleBehaviorTree.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">
