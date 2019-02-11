@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-
+using System.IO;
 
 namespace MLAgents
 {
@@ -99,6 +99,7 @@ namespace MLAgents
     [System.Serializable]
     public class AgentParameters
     {
+
         /// <summary>
         /// The list of the Camera GameObjects the agent uses for visual
         /// observations.
@@ -194,6 +195,9 @@ namespace MLAgents
     [System.Serializable]
     public abstract class Agent : MonoBehaviour
     {
+        [SerializeField]
+        protected bool printExcel;
+
         /// <summary>
         /// The Brain attached to this agent. A brain can be attached either
         /// directly from the Editor through AgentEditor or 
@@ -813,6 +817,24 @@ namespace MLAgents
         public void UpdateVectorAction(float[] vectorActions)
         {
             action.vectorActions = vectorActions;
+            if (printExcel)
+            {
+                StreamWriter sw;
+                FileInfo fi;
+                fi = new FileInfo(Application.dataPath + "/sampling.csv");
+                sw = fi.AppendText();
+
+                string[] s1 =
+                {
+                    "," + action.vectorActions[0].ToString()
+                };
+
+
+                string s2 = string.Join(",", s1);
+                sw.WriteLine(s2);
+                sw.Flush();
+                sw.Close();
+            }
         }
 
         /// <summary>
@@ -832,7 +854,8 @@ namespace MLAgents
         {
             action.textActions = textActions;
         }
-        
+
+
         /// <summary>
         /// Updates the value of the agent.
         /// </summary>
@@ -840,6 +863,7 @@ namespace MLAgents
         public void UpdateValueAction(float value)
         {
             action.value = value;
+
         }
 
         protected float GetValueEstimate()

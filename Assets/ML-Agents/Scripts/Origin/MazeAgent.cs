@@ -7,6 +7,8 @@ using MLAgents;
 using System;
 using System.Linq;
 using Random = UnityEngine.Random;
+using System.Collections;
+using System.IO;
 
 
 namespace UnityStandardAssets.Characters.FirstPerson
@@ -61,30 +63,33 @@ namespace UnityStandardAssets.Characters.FirstPerson
         //過学習検証用
         private int goaledCount = 0;
         private int episodeCount = -1;
-        public int GoaledCount{
-            get{ return goaledCount; }
+
+        public int GoaledCount
+        {
+            get { return goaledCount; }
         }
-        public int EpisodeCount{
-            get{ return episodeCount; }
+
+        public int EpisodeCount
+        {
+            get { return episodeCount; }
         }
 
         private GunActionML gunAction;
-        
-        [SerializeField]
-        protected int maxHp = 100;
+
+        [SerializeField] protected int maxHp = 100;
         protected int hp;
 
-        
         public int Hp
         {
             get { return hp; }
             set { hp = value < 0 ? hp = 0 : value; }
         }
+
         public int MaxHp
         {
             get { return maxHp; }
         }
-        
+
         //初期化   
         public override void InitializeAgent()
         {
@@ -93,11 +98,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_CharacterController = GetComponent<CharacterController>();
             academy = GameObject.Find("MazeAcademy").GetComponent<MazeAcademy>();
-           
         }
 
         //リストの中身を表示
-        public void ShowListContentsInTheDebugLog<T>(List<T> list)
+        public string ShowListContentsInTheDebugLog<T>(List<T> list)
         {
             string log = "";
 
@@ -108,10 +112,90 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 else
                     log += content.val.ToString() + ", ";
             }
-            Debug.Log(log);
+
+            //Debug.Log(log);
+            return log;
         }
 
-        public bool damager;
+        [SerializeField] private bool samplingAct = false;
+        private int actNum = -1;
+
+        private void Update()
+        {
+            //for(int i=0;i<csvActionDatas[1].Length;i++)
+            //    Debug.Log(csvActionDatas[1][i]);
+
+            if (samplingAct)
+            {
+                if (actNum != -1)
+                {
+                    float[] act = {float.Parse(csvActionDatas[label + 1][actNum])};
+                    MoveAgent(act);
+                    g_frame++;
+                    updateActMum();
+                }
+
+                Debug.Log(label);
+            }
+        }
+
+
+        private void updateActMum()
+        {
+            if (g_frame % 4 == 0)
+                actNum++;
+            if (actNum > csvActionDatas[label + 1].Length - 1)
+                actNum = -1;
+        }
+
+        void Awake()
+        {
+            if (base.printExcel)
+            {
+                StreamWriter sw;
+                FileInfo fi;
+                fi = new FileInfo(Application.dataPath + "/sampling.csv");
+                sw = fi.AppendText();
+
+                string[] detectableObjects = {"wall", "agent", "ground", "no_hit", "distance"};
+                float[] rayAngles0 = {20f, 90f, 160f, 45f, 135f, 70f, 110f};
+                float[] rayAngles1 = {25f, 95f, 165f, 50f, 140f, 75f, 115f};
+                float[] rayAngles2 = {15f, 85f, 155f, 40f, 130f, 65f, 105f};
+
+                float[,] rayAngles =
+                {
+                    {20f, 90f, 160f, 45f, 135f, 70f, 110f},
+                    {25f, 95f, 165f, 50f, 140f, 75f, 115f},
+                    {15f, 85f, 155f, 40f, 130f, 65f, 105f}
+                };
+
+                List<string> stringList = new List<string>();
+                for (int i = 0; i < 3; i++)
+                for (int j = 0; j < rayAngles0.Length; j++)
+                for (int k = 0; k < detectableObjects.Length; k++)
+                    stringList.Add(rayAngles[i, j].ToString() + "/" + detectableObjects[k]);
+
+                string[] s1 =
+                {
+                    ShowListContentsInTheDebugLog(stringList),
+                    "vel_x",
+                    "vel_y",
+                    "vel_z",
+                    "action"
+                };
+
+
+                string s2 = string.Join(",", s1);
+                sw.WriteLine(s2);
+                sw.Flush();
+                sw.Close();
+            }
+        }
+
+        private int g_frame = 0;
+        private int label = 0;
+
+        private int savelabel = 0;
 
         //状態を伝える
         public override void CollectObservations()
@@ -119,19 +203,86 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (useVectorObs)
             {
                 const float rayDistance = 40f;
-                float[] rayAngles = {20f, 90f, 160f, 45f, 135f, 70f, 110f};
+                float[] rayAngles0 = {20f, 90f, 160f, 45f, 135f, 70f, 110f};
                 float[] rayAngles1 = {25f, 95f, 165f, 50f, 140f, 75f, 115f};
                 float[] rayAngles2 = {15f, 85f, 155f, 40f, 130f, 65f, 105f};
 
-                string[] detectableObjects = {"wall", "agent"};
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 1.6f, 0f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
-                AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
+                string[] detectableObjects = {"wall", "agent", "ground"};
+
+
+                List<float> rayList =
+                    new List<float>(rayPer.Perceive(rayDistance, rayAngles0, detectableObjects, 1.6f, 0f));
+                List<float> rayList1 =
+                    new List<float>(rayPer.Perceive(rayDistance, rayAngles1, detectableObjects, 1.6f, -2f));
+                List<float> rayList2 =
+                    new List<float>(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 1.6f, -5f));
+
+
+                AddVectorObs(rayList);
+                AddVectorObs(rayList1);
+                AddVectorObs(rayList2);
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
+
+                List<float> rayListSet = new List<float>();
+                rayListSet.AddRange(rayList);
+                rayListSet.AddRange(rayList1);
+                rayListSet.AddRange(rayList2);
+                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).x);
+                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).y);
+                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).z);
+
+
+                float? min = null;
+
+                for (int i = 0; i < csvDatas.Count - 1; i++)
+                {
+                    float sum = 0;
+                    for (int j = 0; j < csvDatas[1].Length; j++)
+                    {
+                        sum += Mathf.Pow(rayListSet[j] - float.Parse(csvDatas[i + 1][j]), 2);
+                    }
+
+                    if (min == null || min > sum)
+                    {
+                        min = sum;
+                        savelabel = i;
+                    }
+                }
+
+                if (actNum == -1)
+                {
+                    label = savelabel;
+                    actNum = 0;
+                }
+
+                if (base.printExcel)
+                {
+                    StreamWriter sw;
+                    FileInfo fi;
+                    fi = new FileInfo(Application.dataPath + "/sampling.csv");
+                    sw = fi.AppendText();
+
+                    string[] s1 =
+                    {
+                        ShowListContentsInTheDebugLog(rayList),
+                        ShowListContentsInTheDebugLog(rayList1),
+                        ShowListContentsInTheDebugLog(rayList2),
+                        m_CharacterController.velocity.x.ToString(),
+                        m_CharacterController.velocity.y.ToString(),
+                        m_CharacterController.velocity.z.ToString(),
+                    };
+
+
+                    string s2 = string.Join(",", s1);
+                    sw.Write(s2);
+                    sw.Flush();
+                    sw.Close();
+                }
             }
         }
 
         private int count;
+
         public void MoveAgent(float[] act)
         {
             var dirToGo = Vector3.zero;
@@ -146,6 +297,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             else
             {
                 var action = Mathf.FloorToInt(act[0]);
+
+
                 switch (action)
                 {
                     case 1:
@@ -161,13 +314,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
                         rotateDir = transform.up * -1f;
                         break;
                     case 5:
-                        if (count % 5 == 0)                     
+                        if (count % 5 == 0)
                             gunAction.triggerGun();
                         count++;
                         break;
                 }
             }
-           
+
             transform.Rotate(rotateDir, Time.deltaTime * 200f);
             m_CharacterController.Move(dirToGo * Time.deltaTime * 4);
         }
@@ -180,8 +333,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public override void AgentReset()
         {
-
-
             /*
             resetPosition.CleanGoal();
             resetPosition.PlaceObject(gameObject, items[0]);
@@ -197,7 +348,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             resetPosition.PlaceObject(resetPosition.enemy.gameObject, items[1]);
             resetPosition.enemy.Hp = resetPosition.enemy.MaxHp;
 
-            
+
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
             Hp = MaxHp;
             enter = false;
@@ -205,12 +356,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-
         public override void AgentOnDone()
         {
         }
 
         //以下　プレイヤーコントロールに関して
+        TextAsset csvFile; // CSVファイル
+        List<string[]> csvDatas = new List<string[]>(); // CSVの中身を入れるリスト;
+
+        List<string[]> csvActionDatas = new List<string[]>(); // CSVの中身を入れるリスト;
 
         // Use this for initialization
         private void Start()
@@ -226,6 +380,28 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
             gunAction = GetComponent<GunActionML>();
+
+            csvFile = Resources.Load("center") as TextAsset; // Resouces下のCSV読み込み
+            StringReader reader = new StringReader(csvFile.text);
+
+            // , で分割しつつ一行ずつ読み込み
+            // リストに追加していく
+            while (reader.Peek() != -1) // reader.Peaekが-1になるまで
+            {
+                string line = reader.ReadLine(); // 一行ずつ読み込み
+                csvDatas.Add(line.Split(',')); // , 区切りでリストに追加
+            }
+
+            csvFile = Resources.Load("actionList") as TextAsset; // Resouces下のCSV読み込み
+            StringReader reader2 = new StringReader(csvFile.text);
+
+            // , で分割しつつ一行ずつ読み込み
+            // リストに追加していく
+            while (reader2.Peek() != -1) // reader.Peaekが-1になるまで
+            {
+                string line = reader2.ReadLine(); // 一行ずつ読み込み
+                csvActionDatas.Add(line.Split(',')); // , 区切りでリストに追加
+            }
         }
 
         private void FixedUpdate()
@@ -368,6 +544,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
+
 //        void OnTriggerEnter(Collider other) {
 //
 //            if (other.CompareTag("agent"))

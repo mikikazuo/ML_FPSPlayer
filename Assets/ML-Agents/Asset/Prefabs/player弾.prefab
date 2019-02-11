@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 135463634283275038}
   - component: {fileID: 54904956156646132}
   - component: {fileID: 114402381214564780}
-  m_Layer: 15
+  m_Layer: 2
   m_Name: "player\u5F3E"
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394614969543344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2868b4de7910edf4c89ac716a03f3ec4, type: 3}
   m_Name: 

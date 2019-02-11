@@ -25,6 +25,22 @@ public class PyramidAgent : Agent
         switchLogic = areaSwitch.GetComponent<PyramidSwitch>();
     }
 
+    //リストの中身を表示
+    public string ShowListContentsInTheDebugLog<T>(List<T> list)
+    {
+        string log = "";
+
+        foreach (var content in list.Select((val, idx) => new {val, idx}))
+        {
+            if (content.idx == list.Count - 1)
+                log += content.val.ToString();
+            else
+                log += content.val.ToString() + ", ";
+        }
+
+        Debug.Log(log);
+        return log;
+    }
     public override void CollectObservations()
     {
         if (useVectorObs)
@@ -40,6 +56,7 @@ public class PyramidAgent : Agent
             AddVectorObs(rayPer.Perceive(rayDistance, rayAngles2, detectableObjects, 0f, 10f));
             AddVectorObs(switchLogic.GetState());
             AddVectorObs(transform.InverseTransformDirection(agentRb.velocity));
+            ShowListContentsInTheDebugLog(rayPer.Perceive(rayDistance, rayAngles, detectableObjects, 0f, 0f));
         }
     }
 

@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4873294501636598}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4058103791855632}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4222618350061768}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1956,7 +1956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571092267179408}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftToeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2392,7 +2392,7 @@ GameObject:
   - component: {fileID: 64715027535378790}
   m_Layer: 0
   m_Name: RoadLine.077
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2576,7 +2576,7 @@ GameObject:
   - component: {fileID: 64274744074560958}
   m_Layer: 0
   m_Name: RoadTurn.023
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2663,7 +2663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4880129332393564}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftForearmRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2995,7 +2995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4706196287311942}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 64720290076208290}
   m_Layer: 0
   m_Name: RoadTurn.017
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3123,7 +3123,7 @@ GameObject:
   - component: {fileID: 64517656880627186}
   m_Layer: 0
   m_Name: RoadIntersection3.009
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3210,7 +3210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197922992560184}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3349,7 +3349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4349711389940494}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4022,7 +4022,7 @@ GameObject:
   - component: {fileID: 64640518321214066}
   m_Layer: 0
   m_Name: RoadTurn.018
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4245,7 +4245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4624878834995676}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4276,7 +4276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4123581343713658}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4307,7 +4307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4881346037637132}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4525,7 +4525,7 @@ GameObject:
   - component: {fileID: 64112264969525668}
   m_Layer: 0
   m_Name: RoadTurn.025
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4784,7 +4784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4642481017339272}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5257,7 +5257,7 @@ GameObject:
   - component: {fileID: 64649863687097376}
   m_Layer: 0
   m_Name: RoadTurn.020
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5349,7 +5349,7 @@ GameObject:
   - component: {fileID: 64168114057754280}
   m_Layer: 0
   m_Name: RoadTurn.000
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5676,7 +5676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4736782894462424}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5706,7 +5706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4305462292703086}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5960,7 +5960,7 @@ GameObject:
   - component: {fileID: 64454713299431880}
   m_Layer: 0
   m_Name: RoadLine.074
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6413,7 +6413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4872626669628594}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6444,7 +6444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4376424696378664}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: HeadTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7266,7 +7266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4653783549870172}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7481,7 +7481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4600120583329052}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7836,7 +7836,7 @@ GameObject:
   - component: {fileID: 64932848358974424}
   m_Layer: 0
   m_Name: RoadLine.071
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8120,7 +8120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4639812111885882}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8152,7 +8152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4781492934902194}
   - component: {fileID: 137987712103612252}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8426,7 +8426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4277254924374228}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8713,7 +8713,7 @@ GameObject:
   - component: {fileID: 64928115423098896}
   m_Layer: 0
   m_Name: RoadIntersection3.008
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8835,7 +8835,7 @@ GameObject:
   - component: {fileID: 64094372968458012}
   m_Layer: 0
   m_Name: RoadIntersection3.011
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8922,7 +8922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4906224045585086}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9043,7 +9043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4352361809185680}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9452,7 +9452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4488814062513540}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9809,7 +9809,7 @@ GameObject:
   - component: {fileID: 64882422670111284}
   m_Layer: 0
   m_Name: RoadTurn.021
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9896,7 +9896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4870635633575208}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10116,7 +10116,7 @@ GameObject:
   - component: {fileID: 64557486025478666}
   m_Layer: 0
   m_Name: RoadSidewalk.357
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10314,7 +10314,7 @@ GameObject:
   - component: {fileID: 64785455345786836}
   m_Layer: 0
   m_Name: RoadSidewalk.358
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10406,7 +10406,7 @@ GameObject:
   - component: {fileID: 64236160369285196}
   m_Layer: 0
   m_Name: RoadSidewalk.355
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10591,7 +10591,7 @@ GameObject:
   - component: {fileID: 64607457995392824}
   m_Layer: 0
   m_Name: RoadLine.076
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10678,7 +10678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4672899980960242}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10911,7 +10911,7 @@ GameObject:
   - component: {fileID: 64438543223709406}
   m_Layer: 0
   m_Name: RoadTurn.026
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11227,7 +11227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579440248127940}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftGunTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11257,7 +11257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4602681369431990}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11379,7 +11379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4080912818896182}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightForearmRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11410,7 +11410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4847930281612172}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Spine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11736,7 +11736,7 @@ GameObject:
   - component: {fileID: 64160494467759224}
   m_Layer: 0
   m_Name: RoadTurn.024
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11947,7 +11947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4049736574698630}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12162,7 +12162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4461316540135810}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12546,7 +12546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4764237834916254}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13194,7 +13194,7 @@ GameObject:
   - component: {fileID: 64447352525403548}
   m_Layer: 0
   m_Name: RoadSidewalk.359
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13660,7 +13660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4450363619946206}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14139,7 +14139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4515091895117522}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14838,7 +14838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4201257523067830}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightGunTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16006,7 +16006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4982877559961190}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16329,7 +16329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4725137886582712}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16542,7 +16542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762172265685866}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17682,7 +17682,7 @@ GameObject:
   - component: {fileID: 64687270407674708}
   m_Layer: 0
   m_Name: RoadSidewalk.354
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17774,7 +17774,7 @@ GameObject:
   - component: {fileID: 64337422263442300}
   m_Layer: 0
   m_Name: RoadSidewalk.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18125,7 +18125,7 @@ GameObject:
   - component: {fileID: 64104999712984372}
   m_Layer: 0
   m_Name: RoadTurn.022
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18247,7 +18247,7 @@ GameObject:
   - component: {fileID: 64924236610012338}
   m_Layer: 0
   m_Name: RoadTurn.013
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18334,7 +18334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044420527335832}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18369,7 +18369,7 @@ GameObject:
   - component: {fileID: 64337001770331342}
   m_Layer: 0
   m_Name: RoadSidewalk.361
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -60570,7 +60570,7 @@ GameObject:
   - component: {fileID: 64594708945154236}
   m_Layer: 0
   m_Name: RoadSidewalk.353
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -60895,7 +60895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4809440485295174}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61085,7 +61085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4699385402520608}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61375,7 +61375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4090700029663450}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61918,7 +61918,7 @@ GameObject:
   - component: {fileID: 64871490016823518}
   m_Layer: 0
   m_Name: RoadLine.069
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -62010,7 +62010,7 @@ GameObject:
   - component: {fileID: 64820037695324542}
   m_Layer: 0
   m_Name: RoadLine.072
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -62097,7 +62097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4091002524689546}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62434,7 +62434,7 @@ GameObject:
   - component: {fileID: 64013451653930650}
   m_Layer: 0
   m_Name: RoadLine.070
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -63547,7 +63547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4823520074518146}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64241,7 +64241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4057141621561184}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64277,7 +64277,7 @@ GameObject:
   - component: {fileID: 64244398394664954}
   m_Layer: 0
   m_Name: RoadLine.073
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -64934,7 +64934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4222603936863228}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65657,7 +65657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758453893821914}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66239,7 +66239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4797004168662886}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66275,7 +66275,7 @@ GameObject:
   - component: {fileID: 64665394046441470}
   m_Layer: 0
   m_Name: RoadSidewalk.356
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -66484,7 +66484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197576005697738}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67230,7 +67230,7 @@ GameObject:
   - component: {fileID: 64754904183350974}
   m_Layer: 0
   m_Name: RoadTurn.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -67698,7 +67698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4416633032110168}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67925,7 +67925,7 @@ GameObject:
   - component: {fileID: 64040176464205962}
   m_Layer: 0
   m_Name: RoadLine.075
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -68108,7 +68108,7 @@ GameObject:
   - component: {fileID: 64711879429242044}
   m_Layer: 0
   m_Name: RoadTurn.019
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -68491,7 +68491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979555872227644}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68642,7 +68642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4427233672230494}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69431,7 +69431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4218536950400600}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Reference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69761,7 +69761,7 @@ GameObject:
   - component: {fileID: 114515550044141632}
   - component: {fileID: 114524785496200252}
   - component: {fileID: 114826214685207652}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: AgentA
   m_TagString: agent
   m_Icon: {fileID: 0}
@@ -111690,7 +111690,6 @@ MonoBehaviour:
   m_JumpSound: {fileID: 0}
   m_LandSound: {fileID: 0}
   maxHp: 100
-  damager: 0
 --- !u!114 &114524785496200252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113025,7 +113024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4766031412436420}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113252,7 +113251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4035264949629816}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113378,7 +113377,7 @@ GameObject:
   - component: {fileID: 64855715271810100}
   m_Layer: 0
   m_Name: RoadSidewalk.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -113570,7 +113569,7 @@ GameObject:
   - component: {fileID: 64681988908392064}
   m_Layer: 0
   m_Name: RoadIntersection3.007
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -113753,7 +113752,7 @@ GameObject:
   - component: {fileID: 64744357752560426}
   m_Layer: 0
   m_Name: RoadSidewalk.360
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -114023,7 +114022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4918356088765438}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114241,7 +114240,7 @@ GameObject:
   - component: {fileID: 64850311444415748}
   m_Layer: 0
   m_Name: RoadTurn.014
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -114756,7 +114755,7 @@ GameObject:
   - component: {fileID: 64677268797923206}
   m_Layer: 0
   m_Name: RoadIntersection3.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -115081,7 +115080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4060489805909530}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115676,7 +115675,7 @@ GameObject:
   - component: {fileID: 64554518112059596}
   m_Layer: 0
   m_Name: RoadTurn.015
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -116164,7 +116163,7 @@ GameObject:
   - component: {fileID: 64947859069475366}
   m_Layer: 0
   m_Name: RoadTurn.016
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -116874,7 +116873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4820880465835716}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116905,7 +116904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4756906424492102}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116936,7 +116935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4191442303150382}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightToeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117177,7 +117176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4173761930581848}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117395,7 +117394,7 @@ GameObject:
   - component: {fileID: 64620696136182942}
   m_Layer: 0
   m_Name: RoadIntersection3.010
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -117587,7 +117586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4152089890900750}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117653,7 +117652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4725840740119514}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117718,7 +117717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4950586078261106}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117779,7 +117778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4066995097279924}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117810,7 +117809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4066872685944738}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118294,7 +118293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4646633281828924}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118355,7 +118354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4500944557251918}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119493,7 +119492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4222711264793642}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119831,7 +119830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4723537864363896}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120090,7 +120089,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4570198635115188}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: RightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120121,7 +120120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4099850908121108}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121110,7 +121109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4884436478345358}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
