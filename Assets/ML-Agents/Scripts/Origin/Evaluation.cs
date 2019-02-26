@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 public class Evaluation : MonoBehaviour
 {
-	[SerializeField] private MazeAcademy academy;
+
 	private GameObject[] agents;
 	[SerializeField] private MazeAgent[] agent;
+	public int sumGoal = 0;
+	public  int sumEpisode = -1; //最初に一回呼ばれるためー１
+	private int pastEpisode=0;
 	private void Start()
 	{
-		agents = GameObject.FindGameObjectsWithTag("agent");
+		agents = GameObject.FindGameObjectsWithTag("Player");
 		agent = new MazeAgent[agents.Length];
 		for(int i=0;i<agents.Length;i++){
 			agent[i] = agents[i].GetComponent<MazeAgent>();
@@ -18,14 +21,11 @@ public class Evaluation : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		//Debug.Log(academy.GetStepCount());
-		
-		int sumGoal = 0;
-		int sumEpisode = 0;
-		if(sumEpisode <= 1000)
-		for(int i=0;i<agents.Length;i++){
-			sumGoal += agent[i].GoaledCount;
-			sumEpisode += agent[i].EpisodeCount;
+
+		if (sumEpisode > pastEpisode )
+		{
+			pastEpisode++;
+			Debug.Log(sumGoal + " / " + sumEpisode + " | " + (float) sumGoal / sumEpisode *100+ "%");
 		}
-		Debug.Log(sumGoal + " / "+sumEpisode);
 	}
 }

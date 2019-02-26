@@ -60,19 +60,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private MazeAcademy academy;
 
-        //過学習検証用
-        private int goaledCount = 0;
-        private int episodeCount = -1;
-
-        public int GoaledCount
-        {
-            get { return goaledCount; }
-        }
-
-        public int EpisodeCount
-        {
-            get { return episodeCount; }
-        }
 
         private GunActionML gunAction;
 
@@ -89,6 +76,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             get { return maxHp; }
         }
+
+        public Evaluation evaluator;
 
         //初期化   
         public override void InitializeAgent()
@@ -129,13 +118,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 if (actNum != -1)
                 {
-                    float[] act = {float.Parse(csvActionDatas[label + 1][actNum])};
+                    Debug.Log("label  :"+label);
+                    float[] act = {float.Parse(csvActionDatas[label,actNum])};
+
                     MoveAgent(act);
                     g_frame++;
                     updateActMum();
                 }
-
-                Debug.Log(label);
             }
         }
 
@@ -144,7 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (g_frame % 4 == 0)
                 actNum++;
-            if (actNum > csvActionDatas[label + 1].Length - 1)
+            if (actNum >= csvActionDatas.GetLength(1))
                 actNum = -1;
         }
 
@@ -195,7 +184,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private int g_frame = 0;
         private int label = 0;
 
-        private int savelabel = 0;
 
         //状態を伝える
         public override void CollectObservations()
@@ -223,34 +211,36 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 AddVectorObs(rayList2);
                 AddVectorObs(transform.InverseTransformDirection(m_CharacterController.velocity));
 
-                List<float> rayListSet = new List<float>();
-                rayListSet.AddRange(rayList);
-                rayListSet.AddRange(rayList1);
-                rayListSet.AddRange(rayList2);
-                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).x);
-                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).y);
-                rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).z);
-
-
-                float? min = null;
-
-                for (int i = 0; i < csvDatas.Count - 1; i++)
+                if (samplingAct && actNum == -1)
                 {
-                    float sum = 0;
-                    for (int j = 0; j < csvDatas[1].Length; j++)
+                    int savelabel = 0;
+
+                    List<float> rayListSet = new List<float>();
+                    rayListSet.AddRange(rayList);
+                    rayListSet.AddRange(rayList1);
+                    rayListSet.AddRange(rayList2);
+                    rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).x);
+                    rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).y);
+                    rayListSet.Add(transform.InverseTransformDirection(m_CharacterController.velocity).z);
+
+
+                    float? min = null;
+
+                    for (int i = 0; i < csvDatas.Count - 1; i++)
                     {
-                        sum += Mathf.Pow(rayListSet[j] - float.Parse(csvDatas[i + 1][j]), 2);
+                        float sum = 0;
+                        for (int j = 0; j < csvDatas[1].Length; j++)
+                        {
+                            sum += Mathf.Pow(rayListSet[j] - float.Parse(csvDatas[i + 1][j]), 2);
+                        }
+
+                        if (min == null || min > sum)
+                        {
+                            min = sum;
+                            savelabel = i;
+                        }
                     }
 
-                    if (min == null || min > sum)
-                    {
-                        min = sum;
-                        savelabel = i;
-                    }
-                }
-
-                if (actNum == -1)
-                {
                     label = savelabel;
                     actNum = 0;
                 }
@@ -352,7 +342,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             transform.rotation = Quaternion.Euler(new Vector3(0f, Random.Range(0, 360)));
             Hp = MaxHp;
             enter = false;
-            episodeCount++;
+            if (evaluator)
+                evaluator.sumEpisode++;
         }
 
 
@@ -364,8 +355,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         TextAsset csvFile; // CSVファイル
         List<string[]> csvDatas = new List<string[]>(); // CSVの中身を入れるリスト;
 
-        List<string[]> csvActionDatas = new List<string[]>(); // CSVの中身を入れるリスト;
-
+        //List<string[]> csvActionDatas = new List<string[]>(); // CSVの中身を入れるリスト;
+        string[,] csvActionDatas = new string[200, 5];
         // Use this for initialization
         private void Start()
         {
@@ -381,27 +372,43 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.Init(transform, m_Camera.transform);
             gunAction = GetComponent<GunActionML>();
 
-            csvFile = Resources.Load("center") as TextAsset; // Resouces下のCSV読み込み
-            StringReader reader = new StringReader(csvFile.text);
-
-            // , で分割しつつ一行ずつ読み込み
-            // リストに追加していく
-            while (reader.Peek() != -1) // reader.Peaekが-1になるまで
+            if (samplingAct)
             {
-                string line = reader.ReadLine(); // 一行ずつ読み込み
-                csvDatas.Add(line.Split(',')); // , 区切りでリストに追加
+                csvFile = Resources.Load("center") as TextAsset; // Resouces下のCSV読み込み
+                StringReader reader = new StringReader(csvFile.text);
+
+                // , で分割しつつ一行ずつ読み込み
+                // リストに追加していく
+                while (reader.Peek() != -1) // reader.Peaekが-1になるまで
+                {
+                    string line = reader.ReadLine(); // 一行ずつ読み込み
+                    csvDatas.Add(line.Split(',')); // , 区切りでリストに追加
+                }
+
+                csvFile = Resources.Load("actionList") as TextAsset; // Resouces下のCSV読み込み
+                StringReader reader2 = new StringReader(csvFile.text);
+
+                int k = -1;
+                // , で分割しつつ一行ずつ読み込み
+                // リストに追加していく
+                while (reader2.Peek() != -1) // reader.Peaekが-1になるまで
+                {
+                    string line = reader2.ReadLine(); // 一行ずつ読み込み
+                    if (k != -1)
+                    {
+                        string[] fields = line.Split(',');
+                        for(int i=1;i<fields.Length;i++)
+                             csvActionDatas[int.Parse(fields[0]),i-1] = fields[i];
+                    }
+
+                    k++;
+                }
+                for(int i=0;i<csvActionDatas.GetLength(0);i++)
+                    Debug.Log(csvActionDatas[i,0]+" "+csvActionDatas[i,1]+" "+csvActionDatas[i,2]+" "+csvActionDatas[i,3]+" "+csvActionDatas[i,4]);
             }
 
-            csvFile = Resources.Load("actionList") as TextAsset; // Resouces下のCSV読み込み
-            StringReader reader2 = new StringReader(csvFile.text);
 
-            // , で分割しつつ一行ずつ読み込み
-            // リストに追加していく
-            while (reader2.Peek() != -1) // reader.Peaekが-1になるまで
-            {
-                string line = reader2.ReadLine(); // 一行ずつ読み込み
-                csvActionDatas.Add(line.Split(',')); // , 区切りでリストに追加
-            }
+            evaluator = GameObject.Find("Evaluation")?.GetComponent<Evaluation>();
         }
 
         private void FixedUpdate()

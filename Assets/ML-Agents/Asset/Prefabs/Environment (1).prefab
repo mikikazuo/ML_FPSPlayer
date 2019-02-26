@@ -69763,7 +69763,7 @@ GameObject:
   - component: {fileID: 114826214685207652}
   m_Layer: 0
   m_Name: AgentA
-  m_TagString: agent
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111588,6 +111588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50e53ce088700754baadfe6878f0ef62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  printExcel: 0
   brain: {fileID: 0}
   agentParameters:
     agentCameras: []
@@ -111690,6 +111691,7 @@ MonoBehaviour:
   m_JumpSound: {fileID: 0}
   m_LandSound: {fileID: 0}
   maxHp: 100
+  samplingAct: 1
 --- !u!114 &114524785496200252
 MonoBehaviour:
   m_ObjectHideFlags: 0

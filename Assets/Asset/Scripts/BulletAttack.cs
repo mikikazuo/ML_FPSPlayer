@@ -20,7 +20,7 @@ public class BulletAttack : MonoBehaviour
         if (count > 5.0f)
         {
             Destroy(this.gameObject);
-            owner.AddReward(-0.01f);
+            owner.AddReward(-0.00001f);
         }
     }
 
@@ -37,11 +37,13 @@ public class BulletAttack : MonoBehaviour
             target.Hp -= atk;
             //target.resetPosition.addReward(target,owner);
             owner.AddReward(0.5f);
+            if(owner.evaluator)
+            owner.evaluator.sumGoal++;
             owner.Done();
         }
         else
         {
-            owner.AddReward(-0.01f);
+            owner.AddReward(-0.00001f);
         }
     }
 }
