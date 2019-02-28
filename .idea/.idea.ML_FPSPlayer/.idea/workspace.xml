@@ -3,372 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b366b81d-ae65-4a6e-afd6-d941fdabfd29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ML_FPSPlayer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML_FPSPlayer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ML_FPSPlayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML_FPSPlayer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Asset/Prefabs/Environment (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Asset/Prefabs/Environment (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/3Dball_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/3Dball_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/Graph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/Graph/events.out.tfevents.1545216026.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/Graph/events.out.tfevents.1545216026.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/checkpoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-12455.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-12455.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-12455.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-12455.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1912.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1912.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1912.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-1912.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2336.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2336.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2336.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2336.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-28009.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-28009.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-28009.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-28009.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-283587.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-283587.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-283587.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-283587.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-2950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3289.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3289.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3289.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-3289.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-333.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-333.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-333.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-333.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-350000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-350000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-350000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-350000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-372034.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-372034.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-372034.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-372034.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-395732.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-395732.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-395732.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-395732.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-400000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-400000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-400000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-400000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-447.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-447.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-447.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-447.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-450000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-450000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-450000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-450000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-500001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-516.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-516.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-516.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-516.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-550000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-550000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-550000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-550000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-580000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-580000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-580000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-580000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-6226.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-6226.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-6226.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-6226.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-7325.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-7325.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-7325.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-7325.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/model-950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/2vs/raw_graph_def.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/3dball_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/3dball_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/checkpoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-14595.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-14595.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-14595.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-14595.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-17594.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-17594.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-17594.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-17594.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/model-50001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/3dball/raw_graph_def.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/3DBall_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/3DBall_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/checkpoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/graph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/graph/events.out.tfevents.1548831588.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/graph/events.out.tfevents.1548831588.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-10000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2631.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2631.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2631.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2631.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2874021.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2874021.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2874021.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-2874021.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-3000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-3000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-3000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-3000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-4044.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-4044.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-4044.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-4044.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/model-9950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/2layer 100man seeground/raw_graph_def.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/3DBall_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/3DBall_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549288259.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549288259.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549354332.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549354332.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549354433.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549354433.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549536494.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549536494.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549588028.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/Graph/events.out.tfevents.1549588028.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/checkpoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-10000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1050000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1050000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1050000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1050000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1100000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1100000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1100000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1100000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1150000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1150000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1150000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1150000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1174096.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1174096.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1174096.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1174096.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1400000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1400000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1400000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1400000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1450000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1450000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1450000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1450000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1500000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1500000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1500000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1500000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1550000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1550000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1550000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1550000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1575905.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1575905.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1575905.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-1575905.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2631.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2631.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2631.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2631.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2874021.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2874021.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2874021.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-2874021.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-3000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-3000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-3000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-3000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4044.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4044.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4044.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4044.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4800000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4800000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4800000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4800000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-4950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-5000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-5000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-5000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-5000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/model-9950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/Attacker/3layer 100man seeground/raw_graph_def.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/not2vs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/not2vs/3Dball_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/not2vs/3Dball_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/3Dball_firstRun-0.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/3Dball_firstRun-0.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/Graph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/Graph/events.out.tfevents.1544088526.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/Graph/events.out.tfevents.1544088526.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/checkpoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-28009.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-28009.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-28009.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-28009.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2850000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2850000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2850000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2850000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2900000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2900000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2900000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2900000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2950000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2950000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2950000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-2950000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000000.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000000.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000000.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000000.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000001.cptk.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000001.cptk.data-00000-of-00001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000001.cptk.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/model-3000001.cptk.index.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムcurios/raw_graph_def.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムなし.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムなし/Graph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムなし/Graph/events.out.tfevents.1544061658.DESKTOP-0IO6BBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/MadeModels/カリキュラムなし/Graph/events.out.tfevents.1544061658.DESKTOP-0IO6BBL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/Evaluation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/Evaluation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewCity/NewCity.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewCity/NewCity.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/actionList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/actionList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/actionList.csv.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/actionList.csv.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/center.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/center.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/center.csv.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/center.csv.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sampling.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sampling.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sampling.csv.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sampling.csv.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -394,7 +28,7 @@
     <session id="-1051736876">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="66" />
+          <entry key="project.closed" value="67" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -406,7 +40,7 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="4" />
           <entry key="project.open.time.37" value="3" />
-          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.39" value="4" />
           <entry key="project.open.time.40" value="5" />
           <entry key="project.open.time.41" value="4" />
@@ -427,7 +61,7 @@
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -437,7 +71,7 @@
           <entry key="csv" value="6" />
           <entry key="json" value="4" />
           <entry key="py" value="2" />
-          <entry key="yaml" value="17" />
+          <entry key="yaml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -445,7 +79,7 @@
           <entry key="C#" value="103" />
           <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="YAML" value="17" />
+          <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -453,7 +87,7 @@
           <entry key="cs" value="5949" />
           <entry key="csv" value="1" />
           <entry key="json" value="37" />
-          <entry key="yaml" value="78" />
+          <entry key="yaml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -461,7 +95,7 @@
           <entry key="C#" value="5949" />
           <entry key="JSON" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="YAML" value="78" />
+          <entry key="YAML" value="83" />
         </counts>
       </usages-collector>
     </session>
@@ -480,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="630">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="36" />
               <folding>
                 <marker date="1550038448366" expanded="false" signature="6:118" ph="..." />
@@ -495,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+            <state relative-caret-position="280">
+              <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
               <folding>
                 <marker date="1551096785312" expanded="false" signature="6:286" ph="..." />
                 <marker date="1551096785312" expanded="true" signature="341:20259" ph="{...}" />
@@ -565,6 +199,15 @@
                 <marker date="1551096785312" expanded="true" signature="19611:19939" ph="/* void OnTriggerEnter(Collider other) { ... */" />
                 <marker date="1551096785312" expanded="true" signature="19948:20251" ph="/* void OnControllerColliderHit(ControllerColliderHit hit) ... */" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -1104,13 +747,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/RandomWalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E635F8C4-E065-42FD-9980-DE39052F5E36/ae/4cf2a095/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB4F169-6ECF-40F6-ADED-46DE1B438688/b6/f9d42657/Stack`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Locomotion System/LegAnimator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Locomotion System/LegAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/SimpleBehaviorTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/CompositeNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/Sequencer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/SBTTest2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/Selector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/ResetPosition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/ResetPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/ConditionalNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/ActionNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAcademy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -1121,10 +764,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/Evaluation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Decision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Brain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Brain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Batcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/CoreBrainHeuristic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DDecision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -1133,11 +776,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Character Controller Scripts/PlatformCharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behavior Designer Movement/Scripts/Tasks/Wander.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A9E45A1-BB76-455E-A48B-6468E91FA2BF/63/1d588411/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Locomotion System Files/Character Controller Scripts/NormalCharacterMotor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behavior Designer Movement/Scripts/Tasks/NavMeshMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Origin Behavior/Scripts/Node.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/Close.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/人物/HumanBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -1169,9 +812,9 @@
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" />
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/Evaluation.cs" />
         <option value="$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs" />
-        <option value="$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml" />
         <option value="$USER_HOME$/PycharmProjects/classtaling/sampling.csv" />
         <option value="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs" />
+        <option value="$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml" />
       </list>
     </option>
   </component>
@@ -1181,7 +824,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="26" />
     <option name="y" value="162" />
     <option name="width" value="1038" />
@@ -1193,6 +836,9 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -1228,9 +874,6 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -1343,11 +986,12 @@
       <workItem from="1550643703319" duration="1250000" />
       <workItem from="1550986489937" duration="1218000" />
       <workItem from="1551087309206" duration="9277000" />
+      <workItem from="1551174367096" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194649000" />
+    <option name="totallyTimeSpent" value="194766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1359,9 +1003,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="162" width="1038" height="805" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.007157464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0037313432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1651,17 +1295,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" column="17" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/classtaling/sampling.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <marker date="1550038448366" expanded="false" signature="6:118" ph="..." />
+            <marker date="1550038448366" expanded="true" signature="161:1250" ph="{...}" />
+            <marker date="1550038448366" expanded="true" signature="368:537" ph="{...}" />
+            <marker date="1550038448366" expanded="true" signature="433:531" ph="{...}" />
+            <marker date="1550038448366" expanded="true" signature="584:1248" ph="{...}" />
+            <marker date="1550038448366" expanded="true" signature="927:1169" ph="{...}" />
+            <marker date="1550038448366" expanded="true" signature="1182:1242" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2141,26 +1794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Asset/Scripts/BulletAttack.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <marker date="1550038448366" expanded="false" signature="6:118" ph="..." />
-            <marker date="1550038448366" expanded="true" signature="161:1250" ph="{...}" />
-            <marker date="1550038448366" expanded="true" signature="368:537" ph="{...}" />
-            <marker date="1550038448366" expanded="true" signature="433:531" ph="{...}" />
-            <marker date="1550038448366" expanded="true" signature="584:1248" ph="{...}" />
-            <marker date="1550038448366" expanded="true" signature="927:1169" ph="{...}" />
-            <marker date="1550038448366" expanded="true" signature="1182:1242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Origin/MazeAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+        <state relative-caret-position="280">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
           <folding>
             <marker date="1551096785312" expanded="false" signature="6:286" ph="..." />
             <marker date="1551096785312" expanded="true" signature="341:20259" ph="{...}" />
@@ -2226,6 +1863,13 @@
             <marker date="1551096785312" expanded="true" signature="19611:19939" ph="/* void OnTriggerEnter(Collider other) { ... */" />
             <marker date="1551096785312" expanded="true" signature="19948:20251" ph="/* void OnControllerColliderHit(ControllerColliderHit hit) ... */" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-agents-master/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
         </state>
       </provider>
     </entry>
